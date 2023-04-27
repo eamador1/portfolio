@@ -23,7 +23,7 @@
 
 # 📖 [Personal Portfolio] <a name="about-project"></a>
 
-In Personal Portfolio, I present the projects that I have been working lately. Through this, potential clients and/or employers will see my abilities, experience and knowledge. I provide information about the projects and resources I used to create them, as well as options to contact me in case my experience is required.
+In Portfolio, I present the projects that I have been working lately. Through this, potential clients and/or employers will see my abilities, experience and knowledge. I provide information about the projects and resources I used to create them, as well as options to contact me in case my experience is required.
 
 ## 🛠 Built With <a name="built-with"></a>
 

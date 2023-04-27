@@ -2,10 +2,18 @@ font-family: 'Crete Round', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
 .container-header {
   background-color: #3e3c3c;
   height: 0;
   width: 100%;
+  margin: 0;
 }
 
 .button-list {
