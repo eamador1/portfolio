@@ -44,10 +44,10 @@ font-family: 'Roboto', sans-serif;
   background-image: url(img/landingimage-mobile.png);
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: 110%;
+  background-position-y: 105%;
   background-size: 32%;
   padding-top: 0;
-  padding-bottom: 20vh;
+  padding-bottom: 12vh;
 }
 
 .hey {
@@ -57,7 +57,7 @@ font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #ff6b00;
   font-size: 56px;
-  padding-top: 25vh;
+  padding-top: 14vh;
   padding-left: 3vh;
 }
 
@@ -81,7 +81,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .container-logos {
-  width: 35vh;
+  width: 20vh;
   padding-left: 2vh;
   display: flex;
   justify-content: space-between;
