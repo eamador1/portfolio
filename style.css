@@ -14,8 +14,9 @@ font-family: 'Roboto', sans-serif;
 .button-list {
   display: flex;
   justify-content: space-between;
-  padding-top: 0;
+  padding-top: 2vh;
   padding-bottom: 2vh;
+  margin-top: 0;
   margin-bottom: 0;
   background-color: #3c3a39;
   padding-right: 2vh;
