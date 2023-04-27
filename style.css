@@ -2,15 +2,11 @@ font-family: 'Crete Round', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 
-body {
-  display: block;
-  margin: 0;
-  padding: 0;
+* {
+  box-sizing: border-box;
 }
 
 .container-header {
-  background-color: #3e3c3c;
-  height: 0;
   width: 100%;
   margin: 0;
 }
@@ -18,10 +14,10 @@ body {
 .button-list {
   display: flex;
   justify-content: space-between;
-  padding-top: 2vh;
+  padding-top: 0;
   padding-bottom: 2vh;
   margin-bottom: 0;
-  background-color: #3e3c3c;
+  background-color: #3c3a39;
   padding-right: 2vh;
   padding-left: 3vh;
 }
@@ -48,17 +44,19 @@ body {
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 110%;
-  background-size: 28%;
-  padding-top: 20vh;
-  padding-bottom: 10vh;
+  background-size: 32%;
+  padding-top: 0;
+  padding-bottom: 20vh;
 }
 
 .hey {
   margin-top: 0;
   margin-bottom: 1vh;
   font-family: 'Crete Round', serif;
+  font-weight: lighter;
   color: #ff6b00;
   font-size: 56px;
+  padding-top: 25vh;
   padding-left: 3vh;
 }
 
@@ -82,9 +80,13 @@ body {
 }
 
 .container-logos {
-  width: 25vh;
+  width: 35vh;
   padding-left: 2vh;
   display: flex;
   justify-content: space-between;
   padding-top: 3vh;
+}
+
+.list-social {
+  list-style: none;
 }
