@@ -1,10 +1,11 @@
-font-family: 'Crete Round', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-
 * {
   box-sizing: border-box;
 }
+
+font-family: 'Crete Round', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 
 .container-header {
   width: 100%;
@@ -81,7 +82,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .container-logos {
-  width: 20vh;
+  width: 25vh;
   padding-left: 2vh;
   display: flex;
   justify-content: space-between;
@@ -91,3 +92,178 @@ font-family: 'Roboto', sans-serif;
 .list-social {
   list-style: none;
 }
+
+/* -------ENDS SECTION LANDING PAGE MOBILE--------------- */
+
+/* --------STARTS SECTION WORKS MOBILE----------------- */
+.container-works {
+  display: grid;
+}
+
+.header-works {
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  margin-left: 5%;
+  font-weight: 300;
+  color: #1c1a19;
+  margin-top: 20vh;
+}
+
+.division-line {
+  width: 90%;
+  height: 2px;
+  margin-bottom: 10vh;
+  color: #212121;
+}
+
+.image1 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.header-posts {
+  margin-left: 5%;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+  font-family: 'Crete Round', serif;
+  font-weight: lighter;
+  font-size: 32px;
+}
+
+.posts-paragraph {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 5%;
+  margin-right: 7%;
+  color: #091e42;
+}
+
+.list-tools {
+  display: flex;
+  padding-left: 0;
+  margin-left: 5%;
+  margin-right: 10%;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  border: solid 1px #8993a4;
+}
+
+.item-css {
+  height: 40px;
+  width: 55px;
+}
+
+.item-html {
+  height: 40px;
+  width: 67px;
+}
+
+.item-bootstrap {
+  height: 40px;
+  width: 95px;
+}
+
+.item-ruby {
+  height: 40px;
+  width: 61px;
+}
+
+.seeproject1 {
+  width: 40%;
+}
+
+.card-heading {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 50px;
+  padding-top: 6vh;
+  padding-left: 2vh;
+  margin-bottom: 1vh;
+}
+
+.card-paragraph {
+  width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 2vh;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+  background-image: url(img/Img\ Placeholder\ \(1\) .png);
+  background-size: 100%;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  color: #fff;
+  height: 380px;
+}
+
+.cardlist {
+  margin-bottom: 8vh;
+  padding-left: 2vh;
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  border: solid 1px rgba(255, 255, 255, 0.24);
+}
+
+.html {
+  height: 40px;
+  width: 55px;
+}
+
+.bootstrap {
+  height: 40px;
+  width: 95px;
+}
+
+.ruby {
+  height: 40px;
+  width: 61px;
+}
+
+button {
+  width: 90%;
+  margin-left: 5%;
+  height: 6.5vh;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+}
+
+.seeproject2 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+/* -------ENDS SECTION CONTAINER WORKS MOBILE----------- */
