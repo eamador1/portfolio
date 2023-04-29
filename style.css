@@ -96,9 +96,6 @@ font-family: 'Roboto', sans-serif;
 /* -------ENDS SECTION LANDING PAGE MOBILE--------------- */
 
 /* --------STARTS SECTION WORKS MOBILE----------------- */
-.container-works {
-  display: grid;
-}
 
 .header-works {
   font-family: 'Crete Round', serif;
@@ -261,6 +258,17 @@ button {
   border: none;
 }
 
+.button:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
 .seeproject2 {
   width: 90%;
   margin-left: 5%;
@@ -270,13 +278,12 @@ button {
 
 /* --------------STARTS SECTION ABOUT MYSELF------------- */
 .container-aboutme {
-  display: grid;
   background-color: #1c1a19;
   margin-top: 17vh;
   background-image: url(img/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: 28%;
+  background-position-y: 25%;
   padding-bottom: 10vh;
 }
 
