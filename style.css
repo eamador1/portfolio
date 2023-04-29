@@ -1,10 +1,11 @@
-font-family: 'Crete Round', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-
 * {
   box-sizing: border-box;
 }
+
+font-family: 'Crete Round', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 
 .container-header {
   width: 100%;
@@ -70,7 +71,7 @@ font-family: 'Roboto', sans-serif;
   margin-bottom: 1vh;
 }
 
-.experience {
+.paragraph {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -81,7 +82,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .container-logos {
-  width: 20vh;
+  width: 25vh;
   padding-left: 2vh;
   display: flex;
   justify-content: space-between;
@@ -90,4 +91,296 @@ font-family: 'Roboto', sans-serif;
 
 .list-social {
   list-style: none;
+}
+
+/* -------ENDS SECTION LANDING PAGE MOBILE--------------- */
+
+/* --------STARTS SECTION WORKS MOBILE----------------- */
+
+.header-works {
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  margin-left: 5%;
+  font-weight: 300;
+  color: #1c1a19;
+  margin-top: 20vh;
+}
+
+.division {
+  width: 90%;
+  height: 2px;
+  margin-bottom: 10vh;
+  color: #212121;
+}
+
+.image1 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.header-posts {
+  margin-left: 5%;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+  font-family: 'Crete Round', serif;
+  font-weight: lighter;
+  font-size: 32px;
+}
+
+.posts-paragraph {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 5%;
+  margin-right: 7%;
+  color: #091e42;
+}
+
+.list-tools {
+  display: flex;
+  padding-left: 0;
+  margin-left: 5%;
+  margin-right: 10%;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  border: solid 1px #8993a4;
+}
+
+.item-css {
+  height: 6vh;
+  width: 9vh;
+}
+
+.item-html {
+  height: 6vh;
+  width: 10vh;
+}
+
+.item-bootstrap {
+  height: 6vh;
+  width: 14vh;
+}
+
+.item-ruby {
+  height: 6vh;
+  width: 9vh;
+}
+
+.seeproject1 {
+  width: 40%;
+}
+
+.card-heading {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 50px;
+  padding-top: 6vh;
+  padding-left: 2vh;
+  margin-bottom: 1vh;
+}
+
+.card-paragraph {
+  width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 2vh;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+  background-image: url(img/Img\ Placeholder1.png);
+  background-size: 100%;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  color: #fff;
+  height: 380px;
+}
+
+.cardlist {
+  margin-bottom: 8vh;
+  padding-left: 2vh;
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  border: solid 1px rgba(255, 255, 255, 0.24);
+}
+
+.html {
+  height: 6vh;
+  width: 8.5vh;
+}
+
+.bootstrap {
+  height: 6vh;
+  width: 14vh;
+}
+
+.ruby {
+  height: 6vh;
+  width: 8.5vh;
+}
+
+button {
+  width: 90%;
+  margin-left: 5%;
+  height: 6.5vh;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+}
+
+.button:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.seeproject2 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+/* -------ENDS SECTION CONTAINER WORKS MOBILE----------- */
+
+/* --------------STARTS SECTION ABOUT MYSELF------------- */
+.container-aboutme {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  margin-top: 17vh;
+  background-image: url(img/illustration-about-me-mobile.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 28.5%;
+  padding-bottom: 10vh;
+}
+
+.headeraboutme {
+  margin-bottom: 1vh;
+  font-family: 'Crete Round', serif;
+  font-weight: lighter;
+  color: #ff6b00;
+  font-size: 72px;
+  padding-top: 12vh;
+  padding-left: 3vh;
+}
+
+.hello {
+  color: #f4f5f7;
+  font-size: 15px;
+  padding-right: 4vh;
+}
+
+.getmyresume {
+  width: 25vh;
+  margin-top: 3vh;
+  margin-bottom: 30vh;
+}
+
+.division-line1 {
+  height: 2px;
+}
+
+.subcontainer-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languagesquare {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 2vh;
+  padding-left: 1vh;
+}
+
+.title1 {
+  margin-top: 8vh;
+}
+
+.title2 {
+  margin-top: 2vh;
+  padding-left: 2vh;
+}
+
+.title3 {
+  margin-top: 2vh;
+}
+
+.square90 {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #ff6b00;
+  transform: rotate(45deg);
+  display: inline-block;
+}
+
+.listaboutlanguages {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0%;
+  align-items: center;
+}
+
+.aboutlanguage {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  list-style: none;
+  color: #fff;
+  padding-bottom: 3vh;
+}
+
+.square {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #ff6b00;
+  margin-right: 0%;
+  display: inline-block;
+}
+
+.circle {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 150px;
+  background-color: #ff6b00;
+  margin-right: 0%;
+  display: inline-block;
 }

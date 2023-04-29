@@ -40,9 +40,9 @@ HTML and CSS
 - **[Linters installed: Lighthouse, Webhint, Stylelint and node_modules]**
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!--## 🚀 Live Demo <a name="live-demo"></a>
 
-NOT AVAILABLE YET
+NOT AVAILABLE YET-->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -82,7 +82,6 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 ### Deployment
 
 You can deploy this project using: Web host provider
-
 
 ## 👥 Authors <a name="authors"></a>
 
