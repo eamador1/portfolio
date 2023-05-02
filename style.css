@@ -384,3 +384,81 @@ button {
   margin-right: 0%;
   display: inline-block;
 }
+/* -------ENDS SECTION ABOUTME MOBILE----------- */
+
+/* --------------STARTS SECTION CONTACTME MOBILE------------- */
+
+.container-contactme {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+}
+
+.container-always {
+  /*width: 100%;
+  display: flex;
+  justify-content: center;*/
+}
+
+.always {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  align-self: auto;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.name, 
+.email{
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.message {
+  background-color: #fbf8f7;
+  border: none;
+}
+
+.name::placeholder,  
+.email::placeholder {
+  padding-left: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.message::placeholder {
+  padding-left: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.container-touch {
+  display: flex;
+  justify-content: center;
+}
+
+.touch {
+  width: 40%;
+  margin-top: 3vh;
+}
+
+.division-line2 {
+  width: 100%;
+  margin-bottom: 5vh;
+}
+
+.division-line3 {
+  height: 5px;
+  background-color: #212121;
+  width: 40%;
+  margin-bottom: 2vh;
+}
+/*-----------ENDS SECTION CONTACTME MOBILE-------------*/
