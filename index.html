@@ -233,17 +233,45 @@
 </Section>
 
 <section>
-  <form>
-    <label for=""></label>
-    <input type="text">
-    <label for=""></label>
-    <input type="text">
-    <label for=""></label>
-    <input type="email">
-    <label for=""></label>
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-    <input type="button">
+  <div class="container-contactme">
+  <!--<div class="container-always">-->
+    <h4 class="always">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
+  <!--</div>-->
+  <form action="https://formspree.io/f/xvonwjkn" method="post" class="contactform">
+    <label for="name" class="name-label" ></label>
+    <input type="text" class="name" name="name" id="name" maxlength="30" placeholder="Full name" required>
+    <hr class="division division-line2"></hr>
+    <label for="mail" class="mail-label"></label>
+    <input type="email" class="email" name="email" id="mail" placeholder="Email address" required> 
+    <hr class="division division-line2"></hr>
+    <label for="msg" class="message-label"></label>
+    <textarea class="message" id="msg" maxlength="500" placeholder="Write me something..." required></textarea>
+    <div class="container-touch">
+    <button class="button touch">Get in touch</button>
+    </div>
   </form>
+</div>
+<footer>
+  <hr class="division division-line2"></hr>
+  <a class="logos">
+    <img src="img/icongithub.png">
+  </a>
+  <a class="logos">
+    <img src="img/iconlinkedin.png">
+  </a>
+  <a class="logos">
+  <img src="img/iconangellist.png">
+  </a>
+  <a class="logos">
+  <img src="img/icontwitter.png">
+  </a>
+  <a class="logos">
+  <img src="img/iconmedium.png">
+  </a>
+  <hr class="division division-line3"></hr>
+  
+  
+</footer>
 </section>
-</body>
+</body> 
 </html>
