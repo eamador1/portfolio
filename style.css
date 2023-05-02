@@ -384,6 +384,7 @@ button {
   margin-right: 0%;
   display: inline-block;
 }
+
 /* -------ENDS SECTION ABOUTME MOBILE----------- */
 
 /* --------------STARTS SECTION CONTACTME MOBILE------------- */
@@ -412,8 +413,8 @@ button {
   margin-left: 5%;
 }
 
-.name, 
-.email{
+.name,
+.email {
   border: none;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -423,10 +424,10 @@ button {
   background-color: #fbf8f7;
   border: none;
   height: 17vh;
-  margin-top: 0vh;
+  margin-top: 0;
 }
 
-.name::placeholder,  
+.name::placeholder,
 .email::placeholder {
   padding-left: 1rem;
   font-family: 'Inter', sans-serif;
@@ -462,7 +463,7 @@ button {
 
 .division-line3 {
   width: 100%;
-  margin-bottom: 0vh;
+  margin-bottom: 0;
   margin-top: 2vh;
   background-color: #dfe1e6;
 }
@@ -487,5 +488,5 @@ footer {
   gap: 2rem;
   align-items: baseline;
 }
-/*-----------ENDS SECTION CONTACTME MOBILE-------------*/
 
+/* -----------ENDS SECTION CONTACTME MOBILE------------- */
