@@ -461,4 +461,17 @@ button {
   width: 40%;
   margin-bottom: 2vh;
 }
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+}
 /*-----------ENDS SECTION CONTACTME MOBILE-------------*/
+
+.social-icons-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 15px;
+  align-items: baseline;
+}
