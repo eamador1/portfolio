@@ -384,3 +384,109 @@ button {
   margin-right: 0%;
   display: inline-block;
 }
+
+/* -------ENDS SECTION ABOUTME MOBILE----------- */
+
+/* --------------STARTS SECTION CONTACTME MOBILE------------- */
+
+.container-contactme {
+  display: flex;
+  flex-direction: column;
+}
+
+.always {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  width: 83%;
+  margin-left: 7%;
+  line-height: 44px;
+  margin-top: 8vh;
+  margin-bottom: 10vh;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.name,
+.email {
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.message {
+  background-color: #fbf8f7;
+  border: none;
+  height: 17vh;
+  margin-top: 0;
+}
+
+.name::placeholder,
+.email::placeholder {
+  padding-left: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #979493;
+}
+
+.message::placeholder {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #3c3a39;
+}
+
+.container-touch {
+  display: flex;
+  justify-content: center;
+}
+
+.touch {
+  width: 40%;
+  margin-top: 3vh;
+  margin-bottom: 8vh;
+}
+
+.division-line2 {
+  background-color: #dbd8d7;
+  width: 100%;
+  margin-bottom: 4vh;
+}
+
+.division-line3 {
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 2vh;
+  background-color: #dfe1e6;
+}
+
+.division-line4 {
+  height: 5px;
+  background-color: #212121;
+  width: 40%;
+  margin-bottom: 1vh;
+  margin-top: 3vh;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.social-icons-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  align-items: baseline;
+}
+
+/* -----------ENDS SECTION CONTACTME MOBILE------------- */
