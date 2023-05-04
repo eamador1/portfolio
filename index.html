@@ -14,8 +14,12 @@
   <header class="container-header">
     <nav class="nav-bar">
       <ul class="button-list">  
-        <li class="nav-button1"><a class="a-nav-button" href="#"></li>   
-        <li class="nav-button"><img src="img/hamburger.png" class="hamburger-Image"></li>
+        <li class="navlink navlink1">My Logo<a class="a-nav-button" href="#"></li>   
+        <li class="navlink navlink2">Portfolio<a class="a-nav-button a" href="#"></li>
+        <li class="navlink navlink3">About<a class="a-nav-button" href="#"></li>
+        <li class="navlink navlink4">Contact<a class="a-nav-button" href="#"></li>
+        <li class="navlink envelope"><img src="img/envelope.png" class="Envelope-Image"></li>       
+        <li class="navlink hamburger"><img src="img/hamburger.png" class="Hamburger-Image"></li>
     </ul>
     </nav>
 </header>
@@ -47,8 +51,10 @@
   <div class="container-works">
     <header class="container-header-works">
       <h3 class="header-works">My Recent Works</h3>
+      <hr class="division division-line1"></hr>
     </header>
-    <hr class="division division-line1"></hr>
+  
+  <div class="container-posts">  
     <div class="container-image1">
       <img class="image1" src="img/Img-Placeholder.png">
     </div>
@@ -71,6 +77,8 @@
     <div class="container-button1">
       <button class="button seeproject1"> See project</button>
     </div>
+  </div>
+  <div class="container-cards">
     <div class="card card1">
       <div class="container-card-heading">
       <h4 class="card-heading">Professional Art<Br>Printing Data</h4>
@@ -166,6 +174,7 @@
       <button class="button seeproject2">See project</button>
     </div>
   </div>
+</div>
 </section>
 
 <Section>
@@ -179,6 +188,12 @@
    Look through some of my work and experience! If you like what you see and you have a project
    you need coded, don't hesitate to contact me.
     </p>
+
+    <p class="paragraph heythere">
+   Hey there! I can help you build a product, feature or website. Look through some of my work    
+   and experience! If you like what you see and have a project you need coded, don't hesitate to 
+   contact me.  
+  </p>
   </div>
   <div>
     <button class="button getmyresume">Get my resume</button>
@@ -187,7 +202,7 @@
   <hr class="division division-line2"></hr>
 </div>
 <div class="subcontainer-about">
-<div class="container-containerlanguagesquare">
+<div class="container-containerlanguagesquare first">
   <div class="container-languagesquare">
   <div class="square90"></div>
   <div class="languagesquare title1">Language</div>
@@ -200,20 +215,21 @@
   <li class="aboutlanguage cs">CSS</li>
 </ul>
 
-<div class="container-containerlanguagesquare">
+<div class="container-containerlanguagesquare second">
   <div class="container-languagesquare">
   <div class="square"></div>
   <div class="languagesquare title2">Frameworks</div>
   </div>
 </div>
 <ul class="frameworks listaboutlanguages">
-  <li class="aboutlanguage js">React.js</li>
+  <li class="aboutlanguage jsframeworks">React.js</li>
   <li class="aboutlanguage ru">Ruby on Rails</li>
   <li class="aboutlanguage ht">RSpec</li>
-  <li class="aboutlanguage cs">Capybara</li>
+  <li class="aboutlanguage ca">Capybara</li>
+  <li class="aboutlanguage se">Selenium</li>
 </ul>
 
-<div class="container-containerlanguagesquare">
+<div class="container-containerlanguagesquare third">
   <div class="container-languagesquare title3">
   <div class="circle"></div>
   <div class="languagesquare">Skills</div>
@@ -226,7 +242,7 @@
   <li class="aboutlanguage cs">APLI Design</li>
   <li class="aboutlanguage cs">Web Development</li>
 </ul>
-<!--nothing top add-->
+
 </div>
 </div>
 
@@ -234,9 +250,9 @@
 
 <section>
   <div class="container-contactme">
-  <!--<div class="container-always">-->
+  <div class="container-always">
     <h4 class="always">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
-  <!--</div>-->
+  </div>
   <form action="https://formspree.io/f/xvonwjkn" method="post" class="contactform">
     <label for="name" class="name-label" ></label>
     <input type="text" class="name" name="name" id="name" maxlength="30" placeholder="Full name" required>
@@ -262,7 +278,6 @@
   </ul>
   <hr class="division division-line4"></hr>
 </footer>
-<!-- comment-->
 </section>
 </body> 
 </html>
