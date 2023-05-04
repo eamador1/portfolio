@@ -256,9 +256,12 @@ button {
   font-size: 17px;
   color: #fff;
   border: none;
+  transition: all 1s ease-out;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
+  cursor: pointer;
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
