@@ -1,5 +1,8 @@
+html,
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 font-family: 'Crete Round', serif;
@@ -8,11 +11,30 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 
 .container-header {
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3c3a39;
+}
+
+.logo {
+  padding-left: 8vw;
+  padding-top: 2vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: #3c3a39;
+  color: #fff;
+  width: 40%;
   margin: 0;
 }
 
 .button-list {
+  width: 58%;
   display: flex;
   justify-content: space-between;
   padding-top: 2vh;
@@ -20,8 +42,6 @@ font-family: 'Roboto', sans-serif;
   margin-top: 0;
   margin-bottom: 0;
   background-color: #3c3a39;
-  padding-right: 2vh;
-  padding-left: 3vh;
 }
 
 .navlink {
@@ -36,6 +56,10 @@ font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
 
+.hamburger {
+  padding-right: 8vw;
+}
+
 .container-landingpage {
   background-color: #1c1a19;
   margin-top: 0;
@@ -46,6 +70,7 @@ font-family: 'Roboto', sans-serif;
   background-size: 32%;
   padding-top: 0;
   padding-bottom: 12vh;
+  width: 100vw;
 }
 
 .hey {
@@ -94,6 +119,10 @@ font-family: 'Roboto', sans-serif;
 
 /* --------STARTS SECTION WORKS MOBILE----------------- */
 
+.container-works {
+  width: 100%;
+}
+
 .header-works {
   font-family: 'Crete Round', serif;
   font-size: 40px;
@@ -139,8 +168,16 @@ font-family: 'Roboto', sans-serif;
   padding-left: 0;
   margin-left: 5%;
   margin-right: 10%;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
+  gap: 2vh;
+  margin-top: 2vh;
+}
+
+.container-cards {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .item {
@@ -177,6 +214,8 @@ font-family: 'Roboto', sans-serif;
 
 .seeproject1 {
   width: 40%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 .card-heading {
@@ -209,6 +248,7 @@ font-family: 'Roboto', sans-serif;
   margin-bottom: 0;
   color: #fff;
   height: 380px;
+  flex: 1;
 }
 
 .cardlist {
@@ -268,8 +308,8 @@ button {
 }
 
 .seeproject2 {
-  width: 90%;
-  margin-left: 5%;
+  width: 100%;
+  margin: 0;
 }
 
 /* -------ENDS SECTION CONTAINER WORKS MOBILE----------- */
@@ -283,7 +323,7 @@ button {
   background-image: url(img/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: 28.5%;
+  background-position-y: 22.5%;
   padding-bottom: 10vh;
 }
 
@@ -472,6 +512,8 @@ button {
   width: 40%;
   margin-bottom: 1vh;
   margin-top: 3vh;
+  justify-content: center;
+  margin-left: 30%;
 }
 
 footer {
@@ -564,8 +606,8 @@ footer {
 
   .division-line1 {
     width: 60%;
-    margin-bottom: 8vh;
-    margin-left: 2vh;
+    margin-bottom: 12vh;
+    margin-left: 1vw;
   }
 
   .container-header-works {
@@ -573,11 +615,14 @@ footer {
     flex-wrap: wrap;
     align-items: flex-end;
     margin-left: 4%;
+    margin-top: 0;
+    width: 85%;
   }
 
   .header-works {
-    margin-top: 13vh;
-    margin-left: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 6vw;
+    flex: 1;
   }
 
   .container-posts {
@@ -618,15 +663,16 @@ footer {
   .list-tools {
     grid-area: 3/2/4/3;
     margin-bottom: 3vh;
+    gap: 1vw;
   }
 
   /* --------------CARDS CONTAINER ------------------ */
 
   .container-cards {
     display: grid;
-    width: 83%;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    width: 90%;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: auto auto;
     justify-items: stretch;
     row-gap: 3vh;
     column-gap: 0;
@@ -634,17 +680,49 @@ footer {
     margin-top: 3vh;
   }
 
-  .seeproject2 {
+  .item {
+    flex: 1;
+  }
+
+  .container-seeproject-button {
     display: none;
   }
 
   .card {
     height: fit-content;
     background-position-y: 60%;
+    flex: 1;
+  }
+
+  .cardlist {
+    display: flex;
+    gap: 0.5vw;
+  }
+
+  .list {
+    flex: 1;
   }
 
   .card1 {
     grid-area: 1/1/2/2;
+    margin-top: 0;
+  }
+
+  .card:hover {
+    background-image: url(img/image-hover.png);
+    background-repeat: no-repeat;
+    height: 48.1vh;
+    width: 25.8vw;
+  }
+
+  .card:hover > .container-card-heading,
+  .card:hover > .container-card-paragraph {
+    display: none;
+  }
+
+  .card:hover > .container-seeproject-button {
+    display: block;
+    margin-top: 36vh;
   }
 
   .card2 {
@@ -674,11 +752,14 @@ footer {
   /* --------------SECTION ABOUT ME--------------- */
 
   .container-aboutme {
+    display: flex;
     background-image: url(img/image-contact-desktop.png);
     background-position-y: 17%;
     background-size: 40%;
     margin-top: 8vh;
     padding-bottom: 0;
+    flex: 1;
+    width: 100%;
   }
 
   .hello {
@@ -687,6 +768,7 @@ footer {
 
   .headeraboutme {
     margin-left: 8vw;
+    flex: 1;
   }
 
   .heythere {
@@ -694,15 +776,18 @@ footer {
     line-height: 32px;
     width: 43vw;
     margin-left: 8vw;
+    flex: 1;
   }
 
   .getmyresume {
     margin-bottom: 15vh;
     margin-left: 10vw;
+    flex: 1;
   }
 
   .division-line2 {
     width: 80%;
+    margin-left: 10%;
   }
 
   .subcontainer-about {
@@ -778,7 +863,7 @@ footer {
     margin-top: 10vh;
   }
 
-  .division {
+  .division-line3 {
     width: 100%;
     margin-bottom: 3vh;
   }
