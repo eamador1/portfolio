@@ -344,7 +344,7 @@ button {
 }
 
 .getmyresume {
-  width: 25vh;
+  width: 44vw;
   margin-top: 3vh;
   margin-bottom: 30vh;
 }
@@ -536,7 +536,9 @@ footer {
   .navlink4,
   .heythere,
   .envelope,
-  .se {
+  .se,
+  .desktopgheading2,
+  .desktopgheading3 {
     display: none;
   }
 }
@@ -668,6 +670,11 @@ footer {
 
   /* --------------CARDS CONTAINER ------------------ */
 
+  .secondheading,
+  .thirdheading {
+    display: none;
+  }
+
   .container-cards {
     display: grid;
     width: 90%;
@@ -689,9 +696,20 @@ footer {
   }
 
   .card {
-    height: fit-content;
+    height: 70vh;
+    width: 25.8vw;
     background-position-y: 60%;
     flex: 1;
+    display: flexbox;
+    overflow: hidden;
+  }/* 54.6 */
+
+  .card-heading {
+    padding-top: 27vh;
+  }
+
+  .desktopheading3 {
+    padding-top: 35vh;
   }
 
   .cardlist {
@@ -706,13 +724,15 @@ footer {
   .card1 {
     grid-area: 1/1/2/2;
     margin-top: 0;
+    background-position-y: 50%;
   }
 
   .card:hover {
     background-image: url(img/image-hover.png);
     background-repeat: no-repeat;
-    height: 48.1vh;
+    height: 70vh;
     width: 25.8vw;
+    flex: 1;
   }
 
   .card:hover > .container-card-heading,
@@ -722,17 +742,19 @@ footer {
 
   .card:hover > .container-seeproject-button {
     display: block;
-    margin-top: 36vh;
+    margin-top: 57.5vh;
   }
 
   .card2 {
     grid-area: 1/2/2/3;
     background: url(img/image-background2.png);
+    background-position-y: 50%;
   }
 
   .card3 {
     grid-area: 1/3/2/4;
     background: url(img/image-background3.png);
+    background-position-y: 50%;
   }
 
   .card4 {
@@ -742,11 +764,13 @@ footer {
   .card5 {
     grid-area: 2/2/3/3;
     background: url(img/image-background2.png);
+    background-position-y: 50%;
   }
 
   .card6 {
     grid-area: 2/3/3/4;
     background: url(img/image-background3.png);
+    background-position-y: 50%;
   }
 
   /* --------------SECTION ABOUT ME--------------- */
@@ -782,6 +806,7 @@ footer {
   .getmyresume {
     margin-bottom: 15vh;
     margin-left: 10vw;
+    width: 14vw;
     flex: 1;
   }
 
