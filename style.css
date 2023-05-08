@@ -12,7 +12,8 @@ font-family: 'Roboto', sans-serif;
 
 .container-header {
   display: flex;
-  /*justify-content: space-between;*/
+
+  /* justify-content: space-between; */
   width: 100%;
 }
 
@@ -94,7 +95,7 @@ font-family: 'Roboto', sans-serif;
   margin-left: 3vh;
   margin-top: 1vh;
   margin-bottom: 1vh;
-  width: 90%
+  width: 90%;
 }
 
 .paragraph {
@@ -246,7 +247,6 @@ font-family: 'Roboto', sans-serif;
 
 .card {
   background-image: url(img/Img\ Placeholder1.png);
-  /*background-size: 100%;*/
   background-size: cover;
   width: 90%;
   margin-left: 5%;
@@ -709,7 +709,7 @@ footer {
   }
 
   .card {
-    height: 54.6vh;
+    height: 55.5vh;
     width: 27vw;
     flex: 1;
     display: flexbox;
@@ -744,7 +744,7 @@ footer {
     background-image: url(img/image-hover.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 54.6vh;
+    height: 55.5vh;
     width: 27vw;
     flex: 1;
   }
@@ -756,7 +756,7 @@ footer {
 
   .card:hover > .container-seeproject-button {
     display: block;
-    margin-top: 39.1vh;
+    margin-top: 40vh;
   }
 
   .card2 {
