@@ -42,7 +42,7 @@ HTML and CSS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-https://github.com/eamador1/eamador1.github.io.
+ https://eamador1.github.io/portfolio/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -69,7 +69,7 @@ VS Code, downloading repo.
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: Open the page in your web-browser https://eamador1.github.io/portfolio/
 
 ### Run tests
 
