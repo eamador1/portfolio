@@ -42,6 +42,8 @@ HTML and CSS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+ https://eamador1.github.io/portfolio/
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 This project displays some of my abilities as a web designer, and it will help you realize I am the person indicated to assist you with your requests.
@@ -67,7 +69,7 @@ VS Code, downloading repo.
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: Open the page in your web-browser https://eamador1.github.io/portfolio/
 
 ### Run tests
 
