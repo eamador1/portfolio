@@ -40,9 +40,9 @@ HTML and CSS
 - **[Linters installed: Lighthouse, Webhint, Stylelint and node_modules]**
 
 
-<!--## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-NOT AVAILABLE YET-->
+https://github.com/eamador1/eamador1.github.io.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -92,7 +92,6 @@ github: https://github.com/eamador1
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Expand Content]**
-- [ ] **[Deploy webpage]**
 
 ## 🤝 Contributing <a name="contributing"></a>
 
