@@ -12,14 +12,16 @@ font-family: 'Roboto', sans-serif;
 
 .container-header {
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
+  width: 100%;
 }
 
 .nav-bar {
-  margin-top: 0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   background-color: #3c3a39;
+  width: 100%;
 }
 
 .logo {
@@ -29,7 +31,7 @@ font-family: 'Roboto', sans-serif;
   font-size: 18px;
   background-color: #3c3a39;
   color: #fff;
-  width: 40%;
+  width: 30%;
   margin: 0;
 }
 
@@ -57,7 +59,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .hamburger {
-  padding-right: 8vw;
+  margin-right: 0;
 }
 
 .container-landingpage {
@@ -70,7 +72,7 @@ font-family: 'Roboto', sans-serif;
   background-size: 32%;
   padding-top: 0;
   padding-bottom: 12vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .hey {
@@ -82,15 +84,17 @@ font-family: 'Roboto', sans-serif;
   font-size: 56px;
   padding-top: 12vh;
   padding-left: 3vh;
+  width: 90%;
 }
 
 .profession {
   color: #fff5e1;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  padding-left: 3vh;
+  margin-left: 3vh;
   margin-top: 1vh;
   margin-bottom: 1vh;
+  width: 90%
 }
 
 .paragraph {
@@ -99,8 +103,8 @@ font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 24px;
   color: #fff;
-  padding-left: 3vh;
-  padding-right: 5vh;
+  margin-left: 3vh;
+  width: 80%;
 }
 
 .container-logos {
@@ -242,7 +246,8 @@ font-family: 'Roboto', sans-serif;
 
 .card {
   background-image: url(img/Img\ Placeholder1.png);
-  background-size: 100%;
+  /*background-size: 100%;*/
+  background-size: cover;
   width: 90%;
   margin-left: 5%;
   margin-bottom: 0;
@@ -325,6 +330,7 @@ button {
   background-position-x: right;
   background-position-y: 22.5%;
   padding-bottom: 10vh;
+  width: 100%;
 }
 
 .headeraboutme {
@@ -334,13 +340,14 @@ button {
   color: #ff6b00;
   font-size: 72px;
   padding-top: 12vh;
-  padding-left: 3vh;
+  margin-left: 3vh;
+  width: 80%;
 }
 
 .hello {
   color: #f4f5f7;
   font-size: 15px;
-  padding-right: 4vh;
+  width: 75%;
 }
 
 .getmyresume {
@@ -430,6 +437,7 @@ button {
 .container-contactme {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .always {
