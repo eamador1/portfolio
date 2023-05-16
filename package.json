@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "- [📗 Table of Contents](#-table-of-contents) - [📖 \\[Personal Portfolio\\] ](#-personal-portfolio-)   - [🛠 Built With ](#-built-with-)     - [Tech Stack ](#tech-stack-)     - [Key Features ](#key-features-)   - [🚀 Live Demo ](#-live-demo-)   - [💻 Getting Started ](#-getting-started-)     - [Prerequisites](#prerequisites)     - [Setup](#setup)     - [Install](#install)     - [Usage](#usage)     - [Run tests](#run-tests)     - [Deployment](#deployment)   - [👥 Authors ](#-authors-)   - [🔭 Future Features ](#-future-features-)   - [🤝 Contributing ](#-contributing-)   - [⭐️ Show your support ](#️-show-your-support-)   - [🙏 Acknowledgments ](#-acknowledgments-)   - [📝 License ](#-license-)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hint": "^7.1.8"
+  }
+}
