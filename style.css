@@ -12,7 +12,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 
 .container-header {
-  display: flex; 
+  display: flex;
   width: 100%;
 }
 
@@ -60,10 +60,12 @@ font-family: 'Roboto', sans-serif;
   text-align: left;
   margin-left: 10vw;
   transition: 0.3s;
+  z-index: 100;
+  height: 100vh;
 }
 
 .button-list.active {
-  left:0;
+  left: 0;
 }
 
 .a-nav-button {
@@ -74,7 +76,6 @@ font-family: 'Roboto', sans-serif;
 .hamburger {
   margin-left: 35vw;
   cursor: pointer;
-
 }
 
 .container-landingpage {
@@ -571,29 +572,18 @@ footer {
     display: none;
   }
 
-  /*.button-list {
-    display: flex;
-    justify-content: flex-end;
-  }*/
-
-  /*.container-header {
-    border-right: 20vw;
-  }*/
-
   .nav-bar {
     width: 100%;
   }
 
   .button-list {
-  width: 58%;
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-right: 5vh;
-  background-color: #3c3a39;
-  display: contents;
-}
+    width: 58%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 5vh;
+    background-color: #3c3a39;
+    display: contents;
+  }
 
   .navlink {
     margin-left: 4vh;
@@ -635,8 +625,6 @@ footer {
     height: 31vh;
     margin-top: 17vh;
   }
-
-  
 
   .hey {
     font-size: 72px;
@@ -753,7 +741,7 @@ footer {
     height: 55.5vh;
     width: 27vw;
     flex: 1;
-    display: flexbox;
+    display: flex;
     overflow: hidden;
   }
 
@@ -963,7 +951,6 @@ footer {
     flex-direction: row;
     width: 100%;
     margin-top: 0;
-    height: fit-content;
     padding-top: 0;
     margin-left: 6vw;
   }

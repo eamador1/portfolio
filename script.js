@@ -5,12 +5,12 @@ const closemenu = document.querySelector('.x-close');
 
   
 hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  menu.classList.toggle('active');
+  /*hamburger.classList.add('active');*/
+  menu.classList.add('active');
 });
 
   
   
   
-  
+
 
