@@ -610,6 +610,7 @@ footer {
   }
 
   .button-list {
+    color: white;
     display: flex;
     justify-content: flex-end;
     width: 58%;
