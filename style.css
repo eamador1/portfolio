@@ -640,7 +640,7 @@ footer {
   .container-landingpage {
     display: grid;
     grid-template-columns: 6% 90%;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto auto;
     background-image: url(img/image-header-desktop.png);
     background-size: 34%;
     padding-bottom: 18vh;
@@ -656,7 +656,21 @@ footer {
   }
 
   .container-experience {
+    grid-area: 3/2/4/3;
     width: 50%;
+  }
+
+  .container-profession {
+    grid-area: 2/2/3/3;
+  }
+
+  .container-logos {
+    grid-area: 1/1/4/2;
+    flex-direction: column;
+    padding-left: 3vh;
+    width: 6vw;
+    height: 31vh;
+    margin-top: 17vh;
   }
 
   .hey {
