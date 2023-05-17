@@ -1,4 +1,4 @@
-const hamburger = document.querySelector('.Hamburger-Image');
+const hamburger = document.querySelector('.hamburger-image');
 const menu = document.querySelector('.button-list');
 const closemenu = document.querySelector('.x-close');
 hamburger.addEventListener('click', () => {
