@@ -604,20 +604,29 @@ footer {
   }
 
   .nav-bar {
+
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
   }
 
   .button-list {
+    position: relative;
+    text-align: center  ;
     color: white;
     display: flex;
+    height: 7vh;
+    left: 0;
     justify-content: flex-end;
     width: 58%;
-    padding-top: 2vh;
+    padding-top: 0;
     padding-bottom: 2vh;
     padding-right: 5vh;
     background-color: #3c3a39;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   .navlink {
@@ -631,11 +640,20 @@ footer {
 
 
   .navlink2 {
-    margin-left: 62vw;
+    margin-left: 52vw;
   }
 
   .envelope {
     margin-right: 10vh;
+    margin-left: 3vh;
+  }
+
+  .navlink3 {
+    margin-left: 3vh;
+  }
+
+  .navlink4 {
+    margin-left: 3vh;
   }
 
   .container-landingpage {
