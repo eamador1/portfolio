@@ -16,10 +16,6 @@ font-family: 'Roboto', sans-serif;
   width: 100%;
 }
 
-.x-close {
-  display: none;
-}
-
 .nav-bar {
   margin: 0;
   display: flex;
@@ -31,6 +27,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .logo {
+  display: flex;
   padding-left: 8vw;
   padding-top: 0;
   font-family: 'Roboto', sans-serif;
@@ -39,33 +36,66 @@ font-family: 'Roboto', sans-serif;
   color: #fff;
   width: 40%;
   margin: 0;
+  text-decoration: none;
 }
 
 .navlink {
   list-style: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  color: #fff;
-  margin: 16px 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 44px;
+  margin: 0 0;
+  border-bottom: solid 2px #6f6c6b;
+  border-top-width: 10vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 3vh;
 }
 
 .button-list {
   position: fixed;
   left: -120%;
-  top: 4.5rem;
+  top: 0;
   gap: 0;
-  flex-direction: column;
   background-color: #3c3a39;
   width: 100%;
-  text-align: left;
-  margin-left: 10vw;
-  transition: 0.3s;
-  z-index: 100;
   height: 100vh;
+  text-align: left;
+  transition: 0.3s;
+  height:90%;
+  color: #fff5e1;
+  line-height: 44px; 
+  padding-left: 0;
+}
+
+.x-close {
+  margin-left: 85vw;
+  margin-top:5vh;
 }
 
 .button-list.active {
-  left: 0;
+  left: 0; 
+}
+
+.button-list-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 15vh;
+  margin-top: 46vh;
+  padding-left: 0;
+  /*mt:49vh*/
+}
+
+.rod {
+  background-color: #dbd8d7;
+}
+
+.division-line5 {
+  height: 0;
+  width: 40%;
+  background-color: #0d151e;
 }
 
 .a-nav-button {
@@ -74,7 +104,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .hamburger {
-  margin-left: 35vw;
+  margin-left: 0;
+  margin-right: 10vw;
   cursor: pointer;
 }
 
@@ -552,31 +583,47 @@ footer {
   align-items: baseline;
 }
 
-/* -----------ENDS SECTION CONTACTME MOBILE------------- */
+/* -----ENDS SECTION CONTACTME MOBILE------------- */
+
+/* -----------MOBILE POPUP------------ */
+
+
+
+/* ---------ENDSMOBILE POPUP------------ */
+
+
 @media (max-width: 767px) {
-  .navlink2,
+  /*.x-close,*/
+  /*.navlink2,
   .navlink3,
-  .navlink4,
+  .navlink4,*/
   .heythere,
   .envelope,
   .se,
   .desktopgheading2,
-  .desktopgheading3,
-  .x-close {
+  .desktopgheading3 {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
-  .hamburger {
+  .hamburger,
+  .popup-mobile,
+  .x-close,
+  .button-list-bottom {
     display: none;
   }
 
   .nav-bar {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    
   }
 
   .button-list {
+    display: flex;
+    justify-content: flex-end;
     width: 58%;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -586,13 +633,32 @@ footer {
   }
 
   .navlink {
-    margin-left: 4vh;
+    margin-left: 0;
     font-size: 15px;
     line-height: 20px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  }
+
+  .logo {
+    width: 30vw;
   }
 
   .navlink2 {
-    margin-left: 50vw;
+    width: 7vw;
+    
+  }
+  .navlink3 {
+    width:7vw;
+  }
+
+  .navlink4 {
+    width: 7vw;
+  }
+
+  .envelope {
+    width: 7vw;
   }
 
   .Envelope-Image {
