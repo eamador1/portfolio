@@ -81,7 +81,7 @@ font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e5e5e5;
+  background-color: ##fff5e1;
   width: 100%;
   height: 15vh;
   margin-top: 46vh;
@@ -269,6 +269,7 @@ font-family: 'Roboto', sans-serif;
   width: 40%;
   margin-top: 2vh;
   margin-bottom: 2vh;
+  margin-left: 5%;
 }
 
 .card-heading {
