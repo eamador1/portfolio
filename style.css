@@ -3,6 +3,7 @@ html,
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 font-family: 'Crete Round', serif;
@@ -592,7 +593,6 @@ footer {
   .desktopgheading3 {
     display: none;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -612,7 +612,7 @@ footer {
 
   .button-list {
     position: relative;
-    text-align: center  ;
+    text-align: center;
     color: white;
     display: flex;
     height: 7vh;
@@ -636,7 +636,6 @@ footer {
     font-family: 'Roboto', sans-serif;
     color: #fff;
   }
-
 
   .navlink2 {
     margin-left: 52vw;
@@ -665,7 +664,7 @@ footer {
   }
 
   .container-logos {
-    grid-area: 1/1/2/2;
+    grid-area: 1/1/4/2;
     flex-direction: column;
     padding-left: 3vh;
     width: 6vw;
@@ -680,15 +679,6 @@ footer {
 
   .container-profession {
     grid-area: 2/2/3/3;
-  }
-
-  .container-logos {
-    grid-area: 1/1/4/2;
-    flex-direction: column;
-    padding-left: 3vh;
-    width: 6vw;
-    height: 31vh;
-    margin-top: 17vh;
   }
 
   .hey {
