@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('.Hamburger-Image');
 const menu = document.querySelector('.button-list');
-const closemenu = document.querySelector('.x-close');  
+const closemenu = document.querySelector('.x-close');
 hamburger.addEventListener('click', () => {
   menu.classList.toggle('active');
 });
