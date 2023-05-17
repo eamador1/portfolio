@@ -6,11 +6,12 @@ html,
   scroll-behavior: smooth;
 }
 
+/*
 font-family: 'Crete Round', serif;
 font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
-
+*/
 .container-header {
   display: flex;
   width: 100%;
