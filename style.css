@@ -50,6 +50,7 @@ font-family: 'Roboto', sans-serif;
   width: 90%;
   margin-left: 5%;
   margin-top: 3vh;
+  height: 60px;
 }
 
 .button-list {
@@ -63,13 +64,13 @@ font-family: 'Roboto', sans-serif;
   transition: 0.3s;
   height: 90%;
   line-height: 44px;
-  padding-left: 0;
+  padding-left: 5vw;
   flex: 1;
   z-index: 10;
 }
 
 .x-close {
-  margin-left: 85vw;
+  margin-left: 77vw;
   margin-top: 5vh;
 }
 
@@ -103,6 +104,12 @@ font-family: 'Roboto', sans-serif;
 .a-nav-button {
   color: #fff5e1;
   text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-left: 15px;
 }
 
 .hamburger {
