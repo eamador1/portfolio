@@ -227,9 +227,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 .container-cards {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
+  width: 90vw;
+  margin-left: 5%;
+  border: none;
+  
 }
 
 .item {
@@ -271,51 +272,93 @@ font-family: 'Roboto', sans-serif;
   margin-left: 5%;
 }
 
+.container-card-heading {
+  position: absolute;
+  z-index: 3;
+  top: 11vh;
+}
+
 .card-heading {
+  color:#fff;
   font-family: 'Crete Round', serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 50px;
-  padding-top: 6vh;
+  /*padding-top: 6vh;*/
   padding-left: 2vh;
   margin-bottom: 1vh;
+  
 }
 
-.card-paragraph {
+.container-card-paragraph {
+  position: absolute;
+  z-index: 3;
+  top: 26vh;
   width: 80%;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   padding-left: 2vh;
-  padding-top: 0;
+}
+
+.card-paragraph {
+  color: #fff;
+  /*padding-top: 0;
   margin-top: 0;
-  margin-bottom: 0;
+  height: 10vh;
+  margin-bottom: 0;*/
+ 
+ 
 }
 
 .card {
-  background-image: url(img/Img\ Placeholder1.png);
-  background-size: cover;
-  width: 90%;
-  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /*position: relative;*/
+  background-color: none;
+  /*background-image: url(img/Img-Placeholder1.png);*/
+  /*background-size: cover;*/
+  
+  /*margin-left: 5%;
   margin-bottom: 0;
   color: #fff;
   height: 380px;
   flex: 1;
+  overflow: hidden;*/
+  
+  /**/
+  /*margin-left: 5%;*/
+  
+}
+
+.container-card-image {
+width: 100%;
+
+}
+
+.card-image1 {
+  width: 100%;
+  height: fit-content;
+  z-index: 0;
 }
 
 .cardlist {
-  margin-bottom: 8vh;
+  /*margin-bottom: 3vh;
   padding-left: 2vh;
   display: flex;
   justify-content: space-between;
   width: 73%;
+  height: fit-content;*/
+  position: absolute;
+  z-index: 3;
+  top: 45vh;
+  color: white;
 }
 
 .list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ display: inline;
   list-style: none;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
@@ -330,6 +373,7 @@ font-family: 'Roboto', sans-serif;
 .bootstrap {
   height: 6vh;
   width: 14vh;
+  margin-right: 2vw;;
 }
 
 .ruby {
@@ -337,8 +381,7 @@ font-family: 'Roboto', sans-serif;
   width: 8.5vh;
 }
 
-button {
-  width: 90%;
+.button {
   margin-left: 5%;
   height: 6.5vh;
   background-color: #ff6b00;
@@ -362,6 +405,7 @@ button {
 
 .seeproject2 {
   width: 100%;
+  height: 8vh;
   margin: 0;
 }
 
@@ -591,7 +635,8 @@ footer {
   .envelope,
   .se,
   .desktopgheading2,
-  .desktopgheading3 {
+  .desktopgheading3,
+  .card-image {
     display: none;
   }
 }
@@ -600,7 +645,8 @@ footer {
   .hamburger,
   .popup-mobile,
   .x-close,
-  .button-list-bottom {
+  .button-list-bottom, 
+  .card-image1 {
     display: none;
   }
 
@@ -791,14 +837,21 @@ footer {
 
   .container-seeproject-button {
     display: none;
-  }
+  } 
 
   .card {
-    height: 55.5vh;
+    height: auto;
+    background-position-y: 80%;
     width: 27vw;
     flex: 1;
-    display: flexbox;
     overflow: hidden;
+    background-size: cover;
+  }
+
+  .card-image {
+    width: 100%;
+    height: fit-content;
+    z-index: 0;
   }
 
   .card-heading {
@@ -813,10 +866,15 @@ footer {
     display: flex;
     gap: 0.5vw;
     margin-top: 3vh;
+    margin-bottom: 2vh;
   }
 
   .list {
     flex: 1;
+  }
+
+  .bootstrap {
+    margin-right: 0;
   }
 
   .card1 {
@@ -829,7 +887,7 @@ footer {
     background-image: url(img/image-hover.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 55.5vh;
+    height: 60vh;
     width: 27vw;
     flex: 1;
   }
@@ -841,7 +899,8 @@ footer {
 
   .card:hover > .container-seeproject-button {
     display: block;
-    margin-top: 40vh;
+    margin-top: 30.7vh;
+    visibility: visible;
   }
 
   .card2 {
@@ -852,24 +911,24 @@ footer {
 
   .card3 {
     grid-area: 1/3/2/4;
-    background: url(img/image-background3.png);
+    /*background: url(img/image-background3.png);*/
     background-size: cover;
   }
 
   .card4 {
     grid-area: 2/1/3/2;
-    background-size: cover;
+    /*background-size: cover;*/
   }
 
   .card5 {
     grid-area: 2/2/3/3;
     background: url(img/image-background2.png);
-    background-size: cover;
+    /*background-size: cover;*/
   }
 
   .card6 {
     grid-area: 2/3/3/4;
-    background: url(img/image-background3.png);
+    /*background: url(img/image-background3.png);*/
     background-position-y: 50%;
     background-size: cover;
   }
@@ -1011,4 +1070,15 @@ footer {
     padding-top: 0;
     margin-left: 6vw;
   }
+
+/* ----------POPUP WINDOW------------------ */  
+.modal-window {
+  width:90%;
+  height: 60vh;
+  padding-top: 112px;
+  padding-bottom: 127px;
+  padding-left: 20vh;
+  padding-right: 20vh;
+  background-color: #979493;
+}
 }
