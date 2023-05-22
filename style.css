@@ -809,7 +809,7 @@ footer {
     height: 55.5vh;
     width: 27vw;
     flex: 1;
-    display: flexbox;
+    display: flex;
     overflow: hidden;
   }
 
@@ -1019,7 +1019,6 @@ footer {
     flex-direction: row;
     width: 100%;
     margin-top: 0;
-    height: fit-content;
     padding-top: 0;
     margin-left: 6vw;
   }
