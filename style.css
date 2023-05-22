@@ -302,7 +302,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .card {
-  background-image: url(img/Img\ Placeholder1.png);
+  /*background-image: url(img/Img\ Placeholder1.png);*/
   background-size: cover;
   width: 90%;
   margin-left: 5%;

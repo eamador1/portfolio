@@ -1,8 +1,8 @@
 // Projects Information//
 const projectInfo = [
     {
-        image: './img/Img-Placeholder1.png',
-        image1: './img/Img-Placeholder1.png',
+        image: './img/img-placeholder1.png',
+        image1: './img/img-placeholder1.png',
         title: 'Professional Art<br>Printing',
         text: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry´s standard.',
         mobileModuleTitle: 'Multi-Post Stories',
@@ -19,7 +19,7 @@ const projectInfo = [
     },
     {
         image: './img/image-background2.png',
-        image1: './img/Img-Placeholder1.png',
+        image1: './img/img-placeholder1.png',
         title: 'Data Dashboard<br>Healthcare',
         text: 'A daily selection of privately personalized reads; no accounts or sign-ups required.Has been the industry´s standard.',
         mobileModuleTitle: 'Multi-Post Stories',
@@ -37,7 +37,7 @@ const projectInfo = [
     },
     {
         image: './img/image-background3.png',
-        image1: './img/Img-Placeholder1.png',
+        image1: './img/img-placeholder1.png',
         title: 'Website Portfolio', 
         text: 'A daily selection of privately personalized reads; no accounts or sign-ups required.Has been the industry´s standard.',
         mobileModuleTitle: 'Multi-Post Stories',
@@ -54,8 +54,8 @@ const projectInfo = [
         code: 'https://github.com/eamador1/portfolio/blob/main/index.html',
     },
     {
-        image: './img/Img-Placeholder1.png',
-        image1: './img/Img-Placeholder1.png',
+        image: './img/img-placeholder1.png',
+        image1: './img/img-placeholder1.png',
         title: 'Professional Art<br>PrintingData',
         text: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry´s standard.',
         mobileModuleTitle: 'Multi-Post Stories',
@@ -73,7 +73,7 @@ const projectInfo = [
     },
     {
         image: './img/image-background2.png',
-        image1: './img/Img-Placeholder1.png',
+        image1: './img/img-placeholder1.png',
         title: 'Data Dashboard<br>Healthcare',
         text: 'A daily selection of privately personalized reads; no accounts or sign-ups required.Has been the industry´s standard.',
         mobileModuleTitle: 'Multi-Post Stories',
@@ -91,7 +91,7 @@ const projectInfo = [
     },
     {
         image: './img/image-background3.png',
-        image1: './img/Img-Placeholder1.png',
+        image1: './img/img-placeholder1.png',
         title: 'Website Portfolio', 
         text: 'A daily selection of privately personalized reads; no accounts or sign-ups required.Has been the industry´s standard.',
         mobileModuleTitle: 'Multi-Post Stories',

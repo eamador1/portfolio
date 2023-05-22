@@ -12,7 +12,6 @@ function showCards() {
     <div class="card">
     <div class="container-card-image">
     <img class="card-image" src="${project.image}">
-    <img class="card-image1" src="${project.image1}">
       <div>
       <div class="container-card-heading">
         <h4 class="card-heading">${project.title}</h4>
