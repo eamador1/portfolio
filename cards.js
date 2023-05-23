@@ -5,11 +5,11 @@ const projectCards = document.querySelector('.container-cards');
 function showCards() {
   let cardsHTML = '';
 
-  projectInfo.forEach((project) => {
+  projectInfo.forEach((project, index) => {
   
     const cardHTML = `
 
-    <div class="card">
+    <div class="card card${index}">
     <div class="container-card-image">
     <img class="card-image" src="${project.image}">
     <img class="card-image1" src="${project.image1}">
