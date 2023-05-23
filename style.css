@@ -235,9 +235,9 @@ font-family: 'Roboto', sans-serif;
 }
 
 .container-cards {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
+  width: 90vw;
+  margin-left: 5%;
+  border: none; 
 }
 
 .item {
@@ -279,45 +279,89 @@ font-family: 'Roboto', sans-serif;
   margin-left: 5%;
 }
 
+.container-card-heading {
+  position: absolute;
+  z-index: 3;
+  top: 11vh;
+}
+
 .card-heading {
+  color:#fff;
   font-family: 'Crete Round', serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 50px;
-  padding-top: 6vh;
+  /*padding-top: 6vh;*/
   padding-left: 2vh;
   margin-bottom: 1vh;
+  
 }
 
-.card-paragraph {
+.container-card-paragraph {
+  position: absolute;
+  z-index: 3;
+  top: 27vh;
   width: 80%;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   padding-left: 2vh;
-  padding-top: 0;
+}
+
+.card-paragraph {
+  color: #fff;
+  /*padding-top: 0;
   margin-top: 0;
-  margin-bottom: 0;
+  height: 10vh;
+  margin-bottom: 0;*/
+ 
+ 
 }
 
 .card {
-  /* background-image: url(img/Img\ Placeholder1.png); */
-  background-size: cover;
-  width: 90%;
-  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /*position: relative;*/
+  background-color: none;
+  /*background-image: url(img/Img-Placeholder1.png);*/
+  /*background-size: cover;*/
+  
+  /*margin-left: 5%;
   margin-bottom: 0;
   color: #fff;
   height: 380px;
   flex: 1;
+  overflow: hidden;*/
+  
+  /**/
+  /*margin-left: 5%;*/
+  
+}
+
+.container-card-image {
+width: 100%;
+
+}
+
+.card-image1 {
+  width: 100%;
+  height: fit-content;
+  z-index: 0;
 }
 
 .cardlist {
-  margin-bottom: 8vh;
+  /*margin-bottom: 3vh;*/
   padding-left: 2vh;
   display: flex;
   justify-content: space-between;
-  width: 73%;
+  /*width: 73%;
+  height: fit-content;*/
+  position: absolute;
+  z-index: 3;
+  top: 46vh;
+  color: white;
 }
 
 .list {
@@ -337,7 +381,8 @@ font-family: 'Roboto', sans-serif;
 
 .bootstrap {
   height: 6vh;
-  width: 14vh;
+  width: 20vw;
+  margin-right: 2vw;;
 }
 
 .ruby {
@@ -345,8 +390,7 @@ font-family: 'Roboto', sans-serif;
   width: 8.5vh;
 }
 
-button {
-  width: 90%;
+.button {
   margin-left: 5%;
   height: 6.5vh;
   background-color: #ff6b00;
@@ -370,8 +414,10 @@ button {
 
 .seeproject2 {
   width: 100%;
+  height: 8vh;
   margin: 0;
 }
+
 
 /* -------ENDS SECTION CONTAINER WORKS MOBILE----------- */
 
