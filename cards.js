@@ -20,4 +20,4 @@ function showCards() {
     `;
   
     cardsHTML += cardHTML;
-  });
+  }); 
