@@ -9,7 +9,7 @@ function showCards() {
   
     const cardHTML = `
 
-    <div class="card">
+    <div class="card card${index}">
     <div class="container-card-image">
     <img class="card-image" src="${project.image}">
     <div>

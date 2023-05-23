@@ -1,0 +1,1 @@
+import { projectInfo } from './data.js';
