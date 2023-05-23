@@ -645,7 +645,8 @@ footer {
   .envelope,
   .se,
   .desktopgheading2,
-  .desktopgheading3 {
+  .desktopgheading3,
+  .card-image {
     display: none;
   }
 }
@@ -654,7 +655,8 @@ footer {
   .hamburger,
   .popup-mobile,
   .x-close,
-  .button-list-bottom {
+  .button-list-bottom,
+  .card-image1 {
     display: none;
   }
 
