@@ -1,4 +1,4 @@
-const projects = [
+const projects00 = [
   {
     image: './img/img-placeholder1.png',
     image1: './img/img-placeholder1.png',
@@ -105,52 +105,91 @@ const projects = [
     tools: ['HTML', 'Bootstrap', 'Ruby'],
     live: 'https://eamador1.github.io/portfolio/',
     code: 'https://github.com/eamador1/portfolio/blob/main/index.html',
-  },  
-  ]
+  }
+]
 
+const projects = [
+  {
+    tittle:'Profesional Art Printing Data More',
+    paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    languages: ['html', 'boostrap', 'Ruby'],
+    seeBtn: 'See Project'
+  },
+
+  {
+    tittle:'Profesional Art Printing Data More',
+    paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    languages: ['html', 'boostrap', 'Ruby'],
+    seeBtn: 'See Project'
+  },
+
+  {
+    tittle:'Profesional Art Printing Data More',
+    paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    languages: ['html', 'boostrap', 'Ruby'],
+    seeBtn: 'See Project'
+  },
+
+  {
+    tittle:'Profesional Art Printing Data More',
+    paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    languages: ['html', 'boostrap', 'Ruby'],
+    seeBtn: 'See Project'
+  },
+
+  {
+    tittle:'Profesional Art Printing Data More',
+    paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    languages: ['html', 'boostrap', 'Ruby'],
+    seeBtn: 'See Project'
+  },
+
+  {
+    tittle:'Profesional Art Printing Data More',
+    paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    languages: ['html', 'boostrap', 'Ruby'],
+    seeBtn: 'See Project'
+  }
+]
+
+ 
 let cardWorks = document.querySelector('.card-works');
+
 projects.forEach((project, index) => {
+  
+    // Create the elements
+    let cardContainer = document.createElement('div');
+    let projectTittle = document.createElement('h2');
+    let projectDescrption = document.createElement('p');
+    let ul = document.createElement('ul');
+    let button = document.createElement('button');
+    const cardClassName = `container-${(index % 3) +1}`;
 
+    // Giving clasess
+    cardContainer.classList.add(cardClassName);
+    projectTittle.classList.add('project-tittle');
+    projectDescrption.classList.add('project-description');
+    ul.classList.add('project-tools');
+    button.classList.add('project-button');
 
+    // Assing values 
+    projectTittle.textContent = project.tittle;
+    projectDescrption.textContent = project.paragraph;
+    button.textContent = project.seeBtn;
 
-// Creating Elements //
-let cardContainer = document.createElement('div');
-//const $image = document.createElement('img');//
-let heading = document.createElement('h4');
-let paragraph = document.createElement('p');
-let ul = document.createElement('ul');
-let button = document.createElement ('button');
-const cardClassName =  `container-${(index %3) +1}`;
+    project.languages.forEach((language) => {
+        let li = document.createElement('li');
+        li.classList.add('project-tools-list');
+        li.textContent = language;
+        ul.appendChild(li);
+    })
 
-// Assigning Classes to the Elements //
-cardContainer.classList.add(cardClassName);
-//$image.classList.add('card-image');//
-heading.classList.add('project-title');
-paragraph = document.add('project-description')
-ul.classList.add('project-tools');
-button.classList.add('project-button');
+    /* Append elements to cardContainer */
+    cardContainer.appendChild(projectTittle);
+    cardContainer.appendChild(projectDescrption);
+    cardContainer.appendChild(ul);
+    cardContainer.appendChild(button);
 
-//Asigning values//
-//$image.setAttribute('src', project.image);//
-heading.textContent = project.title;
-paragraph.textContent = project.text;
-//$button.textContent = 'See project';//
+    cardWorks.appendChild(cardContainer);
 
-project.tools.forEach ((tool) => {
-  let $li = document.createElement('li');
-  li.classList.add('project-tools-list');
-  li.textContent = tool;
-  ul.appendChild(li);
 })
-
-//$cards.appendChild($image);//
-cardContainer.appendChild(heading);
-cardContainer.appendChild(paragraph);
-cardContainer.appendChild(ul);
-cardContainer.appendChild(li);
-cardContainer.appendChild(button);
-cardWorks.appendChild(cardContainer);
-})
-
-
-
