@@ -234,15 +234,6 @@ font-family: 'Roboto', sans-serif;
   margin-top: 2vh;
 }
 
-.container-cards {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  width: 90%;
-  margin-left: 5%;
-  border: none; 
-}
-
 .item {
   display: flex;
   justify-content: center;
@@ -281,26 +272,42 @@ font-family: 'Roboto', sans-serif;
   margin-bottom: 2vh;
   margin-left: 5%;
 }
+/*-------- CARDS ----------*/
 
-.container-card-heading {
-  position: absolute;
-  /*z-index: 3;*/
-  top: 11vh;*/
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(auto auto auto);
+  grid-template-rows: auto;
 }
 
-.card-heading {
+/*.container-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  width: 90%;
+  margin-left: 5%;
+  border: none; 
+}*/
+
+/*.container-card-heading {
+  position: absolute;
+  z-index: 3;
+  top: 11vh;
+}*/
+
+/*.card-heading {
   color:#fff;
   font-family: 'Crete Round', serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 50px;
-  /*padding-top: 6vh;*/
+  /*padding-top: 6vh;
   padding-left: 2vh;
   margin-bottom: 1vh;
   
-}
+}*/
 
-.container-card-paragraph {
+/*.container-card-paragraph {
   position: absolute;
   z-index: 3;
   top: 27vh;
@@ -310,98 +317,102 @@ font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 26px;
   padding-left: 2vh;
+}*/
+
+.container-card-paragraph {
+  width: 90%;
 }
 
-.card-paragraph {
+/*.card-paragraph {
   color: #fff;
-  /*padding-top: 0;
+  padding-top: 0;
   margin-top: 0;
   height: 10vh;
-  margin-bottom: 0;*/
+  margin-bottom: 0;
  
  
-}
+}*/
 
-.card {
+/*.card {
   display: flex;
   flex-direction: column;
-  /*justify-content: flex-end;*/
+  justify-content: flex-end;
   position: relative;
   background-color: none;
-  /*background-image: url(img/Img-Placeholder1.png);*/
-  /*background-size: cover;*/
+  background-image: url(img/Img-Placeholder1.png);
+  background-size: cover;
   
-  /*margin-left: 5%;*/
+  margin-left: 5%;
   margin-bottom: 0;
   color: #fff;
   height: 380px;
   flex: 1;
   overflow: hidden;
   
-  /**/
-  /*margin-left: 5%;*/  
-}
+  
+  /*margin-left: 5%; 
+}*/
 
-.card0 {
+/*.card0 {
   grid-area: 1/1/2/2;
   position: relative;
   background-color: none;
-}
+}*/
 
-.card1 {
+/*.card1 {
   grid-area: 1/2/2/3;
   position: relative;
   background-color: none;
-}
+}*/
 
-.card2 {
+/*.card2 {
   1/3/2/4;
   position: relative;
   background-color: none;
-}
+}*/
 
-.card3 {
+/*.card3 {
   position: relative;
   background-color: none;
 
-}
+}*/
 
-.card4 {
+/*.card4 {
   position: relative;
   background-color: none;
 
-}
+}*/
 
-.card5 {
+/*.card5 {
   position: relative;
   background-color: none;
 
-}
+}*/
 
-.container-card-image {
+/*.container-card-image {
 width: 100%;
-}
+}*/
 
-.card-image1 {
+/*.card-image1 {
   width: 100%;
   height: fit-content;
   z-index: 0;
-}
+}*/
 
-.cardlist {
-  /*margin-bottom: 3vh;*/
+/*.cardlist {
+  margin-bottom: 3vh;
   padding-left: 2vh;
   display: flex;
   justify-content: space-between;
-  /*width: 73%;
-  height: fit-content;*/
+  width: 73%;
+  height: fit-content;
   position: absolute;
   z-index: 3;
   top: 46vh;
   color: white;
-}
+}*/
 
-.list {
+/*.list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -409,25 +420,25 @@ width: 100%;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   border: solid 1px rgba(255, 255, 255, 0.24);
-}
+}*/
 
-.html {
+/*.html {
   height: 6vh;
   width: 8.5vh;
-}
+}*/
 
-.bootstrap {
+/*.bootstrap {
   height: 6vh;
   width: 20vw;
   margin-right: 2vw;;
-}
+}*/
 
-.ruby {
+/*.ruby {
   height: 6vh;
   width: 8.5vh;
-}
+}*/
 
-.button {
+/*.button {
   margin-left: 5%;
   height: 6.5vh;
   background-color: #ff6b00;
@@ -436,24 +447,24 @@ width: 100%;
   font-size: 17px;
   color: #fff;
   border: none;
-}
+}*/
 
-.button:hover {
+/*.button:hover {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
-}
+}*/
 
-.button:active {
+/*.button:active {
   background-color: #e05304;
   color: #f4f1f0;
-}
+}*/
 
-.seeproject2 {
+/*.seeproject2 {
   width: 100%;
   height: 8vh;
   margin: 0;
-}
+}*/
 
 
 /* -------ENDS SECTION CONTAINER WORKS MOBILE----------- */
@@ -682,8 +693,7 @@ footer {
   .envelope,
   .se,
   .desktopgheading2,
-  .desktopgheading3,
-  .card-image {
+  .desktopgheading3 {
     display: none;
   }
 }
@@ -860,31 +870,6 @@ footer {
     gap: 1vw;
   }
 
-  /* --------------CARDS CONTAINER ------------------ */
-
-  .secondheading,
-  .thirdheading {
-    display: none;
-  }
-
-  .container-cards {
-   
-    display: grid;
-    width: 90%;
-    grid-template-columns: 32% 32% 32%;
-    grid-template-rows: auto auto;
-    /*justify-items: stretch;*/
-    row-gap: 3vh;
-    column-gap: 0;
-    margin-left: 8.5%;
-    margin-top: 3vh;
-  }
-
-  .card-paragraph {
-    width: 95%;
-    margin-right: 3vh;
-  }
-
   .item {
     flex: 1;
   }
@@ -893,7 +878,45 @@ footer {
     display: none;
   } 
 
-  .card {
+  /* --------------CARDS CONTAINER ------------------ */
+
+  .secondheading,
+  .thirdheading {
+    display: none;
+  }
+
+  /*.container-cards {
+   
+    display: grid;
+    width: 90%;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: auto auto;
+    justify-items: stretch;
+    row-gap: 3vh;
+    column-gap: 0;
+    margin-left: 8.5%;
+    margin-top: 3vh;
+  }*/
+
+  .container-cards {
+    display: grid;
+    grid-template-columns: 32% 32% 32% ;
+    grid-template-rows: repeat(2,fr);
+    width: 90vw;
+  }
+
+  .card-image {
+    width: 100%;
+  }
+
+  /*.card-paragraph {
+    width: 95%;
+    margin-right: 3vh;
+  }*/
+
+
+
+  /*.card {
     position: relative;
     height: auto;
     background-position-y: 80%;
@@ -901,91 +924,115 @@ footer {
     flex: 1;
     overflow: hidden;
     background-size: cover;
-  }
+  }*/
 
-  .card-image {
+  /*.card-image {
     width: 100%;
     height: fit-content;
     z-index: 0;
-  }
+  }*/
 
-  .card-heading {
+  /*.card-heading {
     padding-top: 19vh;
-  }
+  }*/
 
-  .desktopheading3 {
+  /*.desktopheading3 {
     padding-top: 26vh;
-  }
+  }*/
 
-  .cardlist {
+  /*.cardlist {
     display: flex;
     gap: 0.5vw;
     margin-top: 3vh;
     margin-bottom: 2vh;
-  }
+  }*/
 
-  .list {
+  /*.list {
     flex: 1;
-  }
+  }*/
 
-  .bootstrap {
+  /*.bootstrap {
     margin-right: 0;
-  }
+  }*/
 
-  .card0 {
+  /*.card0 {
     grid-area: 1/1/2/2;
     margin-top: 0;
     background-size: cover;
-  }
+  }*/
 
-  .card:hover {
+  /*.card:hover {
     background-image: url(img/image-hover.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
     width: 27vw;
     flex: 1;
-  }
+  }*/
 
-  .card:hover > .container-card-heading,
+  /*.card:hover > .container-card-heading,
   .card:hover > .container-card-paragraph {
     display: none;
-  }
+  }*/
 
-  .card:hover > .container-seeproject-button {
+  /*.card:hover > .container-seeproject-button {
     display: block;
     margin-top: 30.7vh;
     visibility: visible;
+  }*/
+
+  /*.card1 {
+    grid-area: 1/2/2/3;
+    /*background: url(img/image-background2.png);
+    background-size: cover;
+  }*/
+
+  .card0 {
+    grid-area: 1/1/2/2;
   }
 
   .card1 {
     grid-area: 1/2/2/3;
-    /*background: url(img/image-background2.png);
-    background-size: cover;*/
   }
+
+  /*.card2 {
+    grid-area: 1/3/2/4;
+    /*background: url(img/image-background3.png);
+    background-size: cover;
+  }*/
 
   .card2 {
     grid-area: 1/3/2/4;
-    /*background: url(img/image-background3.png);
-    background-size: cover;*/
   }
+
+  /*.card3 {
+    grid-area: 2/1/3/2;
+    background-size: cover;
+  }*/
 
   .card3 {
     grid-area: 2/1/3/2;
-    /*background-size: cover;*/
   }
+
+  /*.card4 {
+    grid-area: 2/2/3/3;
+    background: url(img/image-background2.png);
+    background-size: cover;
+  }*/
 
   .card4 {
     grid-area: 2/2/3/3;
-    /*background: url(img/image-background2.png);
-    /*background-size: cover;*/
   }
 
-  .card5 {
+  /*.card5 {
     grid-area: 2/3/3/4;
-    /*background: url(img/image-background3.png);
+    background: url(img/image-background3.png);
     background-position-y: 50%;
-    background-size: cover;*/
+    background-size: cover;
+  }*/
+
+  .card5 {
+    grid-area: 2/2/3/3;
   }
 
   /* --------------SECTION ABOUT ME--------------- */
