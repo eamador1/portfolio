@@ -1,4 +1,3 @@
-//Project Information"
 const projectInfo = [
     {
       image: './img/img-placeholder1.png',
