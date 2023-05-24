@@ -304,6 +304,7 @@ font-family: 'Roboto', sans-serif;
   height: 48px;
   width: 100%;
   text-align: center;
+  position: absolute;
 }
 
 .project-tittle {
@@ -316,6 +317,7 @@ font-family: 'Roboto', sans-serif;
   margin-left: 5%;
   width: 295px;
   height: 81px;
+  position: absolute;
 }
 
 .project-description {
@@ -329,6 +331,7 @@ font-family: 'Roboto', sans-serif;
   margin-right: 5%;
   margin-top: -10px;
   width: 291px;
+  position: absolute;
 }
 
 .project-tools {
@@ -337,6 +340,7 @@ font-family: 'Roboto', sans-serif;
   list-style-type: none;
   margin-left: -20px;
   font-family: 'Inter', sans-serif;
+  position: absolute;
 }
 
 .project-tools li {
