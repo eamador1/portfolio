@@ -74,3 +74,21 @@ const projects = [
       languages: ['html', 'bootstrap', 'Ruby on Rails'],
     }
   ]
+
+  projects.forEach((project, index) =>{
+  
+  // Creating Variables//
+
+  let $seeProject = document.querySelectorAll('.project-button')
+  let $modalTitle = document.querySelector('.modal-title');
+//variables to open and close modal window//
+  let $projectButton = document.querySelectorAll('.project-button');
+  let $modal = document.querySelector('.modal');
+  let $closeModal = document.querySelector('.x-modalClose');
+  let $body = document.querySelector('body');
+
+  // Assign Values//
+
+  $modalTitle.textContent = project.desktopTitle;
+
+})
