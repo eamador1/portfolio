@@ -460,8 +460,8 @@ font-family: 'Roboto', sans-serif;
   width: 8.5vh;
 }*/
 
-/*.button {
-  width: 90%;
+.button {
+  width: 32vw;
   margin-left: 5%;
   height: 6.5vh;
   background-color: #ff6b00;
@@ -470,7 +470,7 @@ font-family: 'Roboto', sans-serif;
   font-size: 17px;
   color: #fff;
   border: none;
-}*/
+}
 
 /*.button:hover {
   background-color: #fff5e1;
@@ -709,6 +709,33 @@ footer {
 }
 
 /* -----------ENDS SECTION CONTACTME MOBILE------------- */
+
+/* -----------MODAL SECTION CONTACTME MOBILE------------- */
+
+.modal {
+  background-color: #fff;
+  /* display: none;*/
+  position: fixed;
+  top: -100%;
+  z-index: 1;
+  width: calc(100% - 32px);
+  height: calc(100% - 60px);
+  margin-left: 16px;
+  margin-top: 30px;
+  
+}
+
+.overlay {
+
+}
+.live {
+  width: 30vw;
+}
+
+.source {
+  width: 40vw;
+}
+
 @media (max-width: 767px) {
   .heythere,
   .envelope,
@@ -725,7 +752,6 @@ footer {
   .popup-mobile,
   .x-close,
   .button-list-bottom,
-  .project-button,
   .hover-image {
     display: none;
   }
@@ -866,7 +892,7 @@ footer {
   }
 
   .seeproject1 {
-    width: 10vw;
+    
   }
 
   .container-image1 {
@@ -889,6 +915,18 @@ footer {
     grid-area: 3/2/4/3;
     margin-bottom: 3vh;
     gap: 1vw;
+  }
+
+  .button {
+    width: 11vw;
+    margin-left: 5%;
+    height: 6.5vh;
+    background-color: #ff6b00;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+    border: none;
   }
 
   /* --------------CARDS CONTAINER ------------------ */
@@ -1203,5 +1241,31 @@ footer {
     margin-top: 0;
     padding-top: 0;
     margin-left: 6vw;
+  }
+  .modal {
+    background-color: #fff;
+    /* display: none;*/
+    position: fixed;
+    top: -100%;
+    z-index: 1;
+    width: 85vw;
+    height: 82vh;
+    margin-left: 7%;
+    margin-top: 13vh;
+  }
+
+  x-modalClose {
+
+  }
+  
+  .overlay {
+    
+  }
+  .live {
+    width: 30vw;
+  }
+  
+  .source {
+    width: 40vw;
   }
 }
