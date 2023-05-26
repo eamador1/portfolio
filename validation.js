@@ -10,7 +10,9 @@ $form.addEventListener('submit', e => {
     let warnings = ""
     let enter = false
 
-
+$closemenu.addEventListener('click', () => {
+    $container.classList.add('hide');
+});
 
 if (restriction.test($mail.value)) {
     warnings+=`Warning: Please use only lower case for email`
