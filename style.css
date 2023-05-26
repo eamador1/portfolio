@@ -566,14 +566,14 @@ button {
   display: none;
 }
 
-.container-warning{
+.container-warning {
   display: flex;
   flex-direction: column;
   width: 45vh;
   height: 14vh;
   text-align: center;
   margin-left: 4vw;
-  margin-top: 0vh;
+  margin-top: 0;
   border: 1px solid #ff6b00;
   border-radius: 5px;
   background-color: red;
@@ -585,10 +585,10 @@ button {
   margin-top: 1px;
 }
 
-.warnings{
+.warnings {
   color: #fff;
   margin-left: 1vw;
-  margin-top: 0vh;
+  margin-top: 0;
   border-radius: 5px;
 }
 
@@ -1051,17 +1051,17 @@ footer {
     border: 1px solid #f55800;
   }
 
-  .container-warning{
+  .container-warning {
     display: flex;
     flex-direction: column;
     width: 38vh;
     text-align: center;
     color: #fff;
     margin-left: -7vw;
-    margin-top: 0vh;
+    margin-top: 0;
     border: 1px solid red;
     border-radius: 5px;
-    background-color:  red
+    background-color: red;
   }
 
   .hide {
