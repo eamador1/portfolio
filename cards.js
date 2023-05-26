@@ -1,3 +1,4 @@
+
 const projects = [
   {
     images: './img/img-placeholder1.png',
@@ -78,7 +79,7 @@ projects.forEach((project, index) => {
     $ul.classList.add('project-tools');
     $button.classList.add('project-button');
 
-    // Assing values 
+    // Assign values 
     $images.setAttribute("src", project.images);
     $hoverImage.setAttribute("src", project.image1);
     $projectTitle.textContent = project.title;
