@@ -554,7 +554,46 @@ button {
 .touch {
   width: 40%;
   margin-top: 3vh;
+  margin-bottom: 1vh;
+  background-color: #e05304;
+  height: 6vh;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #ff6b00;
+}
+
+.hide {
+  display: none;
+}
+
+.container-warning{
+  display: flex;
+  flex-direction: column;
+  width: 35vh;
+  height: 10vh;
+  text-align: center;
+  margin-left: 4vw;
+  margin-top: 0vh;
+  border: 1px solid #ff6b00;
+  border-radius: 5px;
+  background-color: red;
   margin-bottom: 8vh;
+  align-items: flex-start;
+}
+
+.x-warning {
+  margin-top: 1px;
+}
+
+.hide {
+  display:none;
+}
+
+.warnings{
+  color: #fff;
+  margin-left: 1vw;
+  margin-top: 0vh;
+  border-radius: 5px;
 }
 
 .division-line2 {
@@ -1013,6 +1052,25 @@ footer {
   .touch {
     margin-left: 0;
     width: 23%;
+    border: 1px solid #f55800;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .container-warning{
+    display: flex;
+    flex-direction: column;
+    width: 35vh;
+    text-align: center;
+    color: #fff;
+    margin-left: -7vw;
+    margin-top: -2vh;
+    border: 1px solid #ff6b00;
+    border-radius: 5px;
+    background-color:  #f55800;
+    
   }
 
   .social-icons-form {
