@@ -569,8 +569,8 @@ button {
 .container-warning{
   display: flex;
   flex-direction: column;
-  width: 35vh;
-  height: 10vh;
+  width: 45vh;
+  height: 14vh;
   text-align: center;
   margin-left: 4vw;
   margin-top: 0vh;
@@ -583,10 +583,6 @@ button {
 
 .x-warning {
   margin-top: 1px;
-}
-
-.hide {
-  display:none;
 }
 
 .warnings{
@@ -1055,22 +1051,21 @@ footer {
     border: 1px solid #f55800;
   }
 
-  .hide {
-    display: none;
-  }
-
   .container-warning{
     display: flex;
     flex-direction: column;
-    width: 35vh;
+    width: 38vh;
     text-align: center;
     color: #fff;
     margin-left: -7vw;
-    margin-top: -2vh;
-    border: 1px solid #ff6b00;
+    margin-top: 0vh;
+    border: 1px solid red;
     border-radius: 5px;
-    background-color:  #f55800;
-    
+    background-color:  red
+  }
+
+  .hide {
+    display: none;
   }
 
   .social-icons-form {
