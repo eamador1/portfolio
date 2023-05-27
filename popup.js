@@ -1,5 +1,6 @@
 const projects = [
     {
+      id: '1',
       imageDesktop: 'img/SnapshootPortfolioDesktop.png',
       imageMobile: 'img/SnapshootPortfolioMobile.png',
       desktopTitle: 'Keeping track of hundreds of components website 1',
@@ -18,6 +19,7 @@ const projects = [
     },
   
     {
+      id: '2',
       imageDesktop: 'img/SnapshootPortfolioDesktop.png',
       imageMobile: 'img/SnapshootPortfolioMobile.png',
       desktopTitle: 'Keeping track of hundreds of components website 2',
@@ -34,6 +36,7 @@ const projects = [
     },
   
     {
+      id: '3',
       imageDesktop: 'img/SnapshootPortfolioDesktop.png',
       imageMobile: 'img/SnapshootPortfolioMobile.png',
       desktopTitle: 'Keeping track of hundreds of components website 3',
@@ -50,6 +53,7 @@ const projects = [
     },
   
     {
+      id: '4',
       imageDesktop: 'img/SnapshootPortfolioDesktop.png',
       imageMobile: 'img/SnapshootPortfolioMobile.png',
       desktopTitle: 'Keeping track of hundreds of components website 4',
@@ -66,6 +70,7 @@ const projects = [
     },
   
     {
+      id: '5',
       imageDesktop: 'img/SnapshootPortfolioDesktop.png',
       imageMobile: 'img/SnapshootPortfolioMobile.png',
       desktopTitle: 'Keeping track of hundreds of components website 5',
@@ -82,6 +87,7 @@ const projects = [
     },
   
     {
+      id: '6',
       imageDesktop: 'img/SnapshootPortfolioDesktop.png',
       imageMobile: 'img/SnapshootPortfolioMobile.png',
       desktopTitle: 'Keeping track of hundreds of components website 6',
@@ -96,55 +102,72 @@ const projects = [
       tools: ['html', 'bootstrap', 'Ruby on Rails'],
       closeImage: 'img/x-mobile.png',
     }
-  ]
+];
 
-  let $modal = document.querySelector('.modal');
+// let $modal = document.querySelector('.modal');
+function showModal(modalId) {
+  const popup = projects.find((popup) => popup.id === modalId);
 
-  projects.forEach((project, index) => {
+  //Create Elements
+  let $modal = document.createElement('div');
+  let $closeBtn = document.createElement('button');
+  let $modalTitle = document.createElement('div');
+  // let $closeModal = document.createElement('img');
+  let $ulModal = document.createElement('ul');
+  let $pModalMobile = document.createElement('p');
+  let $live = document.createElement('button');
+  let $source = document.createElement('button');
 
-    //Create Elements
-    let $modalTitle = document.createElement('div');
-    let $closeModal = document.createElement('img');
-    let $ulModal = document.createElement('ul');
-    let $pModalMobile = document.createElement('p');
-    let $live = document.createElement('button');
-    let $source = document.createElement('button');
+  //Giving Classes
+  $modal.classList.add('modal');
+  $closeBtn.classList.add('x-modalClose');
+  $modalTitle.classList.add('modal-title');
+  $closeModal.classList.add('x-modalClose');
+  $ulModal.classList.add('modal-tools');
+  $pModalMobile.classList.add('p-modalMobile');
+  $live.classList.add('button live');
+  $source.classList.add('button source');
+
+  //Assigning Value
+  $modalTitle.textContent = project.desktopTitle;
+  $closeModal.setAttribute("src", project.closeImage);
+  $pModalMobile.textContent = project.mobileText;
+  $live.textContent = project.liveBtn;
+  $source.textContent = project.sourceBtn;
+
+  project.tools.forEach((tool) => {
+      let $liModal = document.createElement('li');
+      $liModal.classList.add('modal-list');
+      $liModal.textContent = tool;
+      $ulModal.appendChild($liModal);
+  })
+
+  $modal.appendChild($modalTitle);
+  $modal.appendChild($closeModal);
+  $modal.appendChild($pModalMobile);
+  $modal.appendChild($live);
+  $modal.appendChild($source);
+  $modal.appendChild($ulModal);
+};
+
   
-    //Giving Classes
-    $modalTitle.classList.add('modal-title');
-    $closeModal.classList.add('x-modalClose');
-    $ulModal.classList.add('modal-tools');
-    $pModalMobile.classList.add('p-modalMobile');
-    $live.classList.add('button live');
-    $source.classList.add('button source');
+const openModal = document.querySelectorAll('.project-button');
 
-    //Assigning Value
-    $modalTitle.textContent = project.desktopTitle;
-    $closeModal.setAttribute("src", project.closeImage);
-    $pModalMobile.textContent = project.mobileText;
-    $live.textContent = project.liveBtn;
-    $source.textContent = project.sourceBtn;
-
-    project.tools.forEach((tool) => {
-        let $liModal = document.createElement('li');
-        $liModal.classList.add('modal-list');
-        $liModal.textContent = tool;
-        $ulModal.appendChild($liModal);
-    })
-
-    $modal.appendChild($modalTitle);
-    $modal.appendChild($closeModal);
-    $modal.appendChild($pModalMobile);
-    $modal.appendChild($live);
-    $modal.appendChild($source);
-    $modal.appendChild($ulModal);
-    })
-
-  
-   
+openModal.forEach((button) => {
+  button.addEventListener('click', () => {
+    // get ID of popups objects
+    const modalId = button.dataset.projectId;
+    // call the popup function with id
+    showPopup(modalId);
+  });
+});
 
 
-  /*  let seePopup = () => {
+
+
+
+
+/*  let seePopup = () => {
         $modal.classList.remove('hide');
         $overlay.classList.remove('hide');
         $body.classList.add('hide-scrollBar');
@@ -159,7 +182,7 @@ const projects = [
     /*$seeProject.addEventListener('click', seePopup);
     $closeModal.addEventListener('click', closePopup);*/
 
-*/
+
 
 
 
