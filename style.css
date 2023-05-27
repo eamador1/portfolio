@@ -711,6 +711,11 @@ footer {
 /* -----------ENDS SECTION CONTACTME MOBILE------------- */
 
 /* -----------MODAL SECTION CONTACTME MOBILE------------- */
+.whole-modal{
+  width: 100%;
+  background-color: red;
+  display: none;
+}
 
 .modal {
   background-image: url(/img/SnapshootPortfolioMobile.png);
@@ -728,7 +733,7 @@ footer {
   margin-left: 16px;
   margin-top: 30px;
   /*  */
-  /* display: none; */
+  display: none;
 
 }
 
@@ -803,7 +808,7 @@ footer {
 }
 
 .overlay {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   backdrop-filter: blur(5px);
@@ -1353,6 +1358,8 @@ footer {
     height: 75vh;
     margin-left: 7%;
     margin-top: 13vh;
+    /*  */
+    display: none;
   }
 
   .modal-title {
