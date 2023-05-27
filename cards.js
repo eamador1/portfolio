@@ -25,7 +25,9 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See source',
     liveBtn: "See Live",
-    sourceBtn: "See Source"
+    sourceBtn: "See Source",
+    live: 'https://eamador1.github.io/portfolio/',
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html'
   },
 
   {
@@ -53,7 +55,9 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See source',
     liveBtn: "See Live",
-    sourceBtn: "See Source"
+    sourceBtn: "See Source",
+    live: 'https://eamador1.github.io/portfolio/',
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html'
   },
 
   {
@@ -81,7 +85,9 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See source',
     liveBtn: "See Live",
-    sourceBtn: "See Source"
+    sourceBtn: "See Source",
+    live: 'https://eamador1.github.io/portfolio/',
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html'
   },
 
   {
@@ -109,7 +115,9 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See source',
     liveBtn: "See Live",
-    sourceBtn: "See Source"
+    sourceBtn: "See Source",
+    live: 'https://eamador1.github.io/portfolio/',
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html',
   },
 
   {
@@ -137,7 +145,9 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See source',
     liveBtn: "See Live",
-    sourceBtn: "See Source"
+    sourceBtn: "See Source",
+    live: 'https://eamador1.github.io/portfolio/',
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html'
   },
 
   {
@@ -165,7 +175,9 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See source',
     liveBtn: "See Live",
-    sourceBtn: "See Source"
+    sourceBtn: "See Source",
+    live: 'https://eamador1.github.io/portfolio/',
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html'
   }
 ]
 //CODE TO DISPLAY CARDS
@@ -245,7 +257,9 @@ function showModal(modalId) {
   let $ulModal = document.createElement('ul');
   let $pModalMobile = document.createElement('p');
   let $live = document.createElement('button');
+  let $aLive = document.createElement('a');
   let $source = document.createElement('button');
+  let $aSource = document.createElement('a');
 
   //Giving Classes
   $modal.classList.add('modal');
@@ -259,11 +273,16 @@ function showModal(modalId) {
 
   //Assigning Value
   $modalTitle.textContent = popup.desktopTitle;
-  $closeBtn.innerHTML = '&times';
-  // $closeModal.setAttribute("src", project.closeImage);
+  $closeBtn.innerHTML = '&times'; 
   $pModalMobile.textContent = popup.mobileText;
   $live.textContent = popup.liveBtn;
   $source.textContent = popup.sourceBtn;
+  $aLive.href = popup.live;
+  $aLive.target = '_blank';
+  $aLive.rel = 'noopener';
+  $aSource.href = popup.source;
+  $aSource.target = '_blank';
+  $aSource.rel = 'noopener';
 
   popup.tools.forEach((tool) => {
       let $liModal = document.createElement('li');
@@ -276,7 +295,9 @@ function showModal(modalId) {
   $modal.appendChild($closeBtn);
   $modal.appendChild($ulModal);
   $modal.appendChild($pModalMobile);
+  $live.appendChild($aLive);
   $modal.appendChild($live);
+  $source.appendChild($aSource);
   $modal.appendChild($source);
 
   document.body.appendChild($modal);
