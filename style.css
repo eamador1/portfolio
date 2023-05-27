@@ -846,7 +846,8 @@ footer {
   .popup-mobile,
   .x-close,
   .button-list-bottom,
-  .hover-image {
+  .hover-image 
+  .project-button {
     display: none;
   }
 
