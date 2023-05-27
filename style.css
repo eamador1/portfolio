@@ -356,6 +356,7 @@ font-family: 'Roboto', sans-serif;
   height: 81px;
   position: absolute;
   top: 10vh;
+  flex: 1;
 }
 
 .project-description {
@@ -371,6 +372,7 @@ font-family: 'Roboto', sans-serif;
   width: 291px;
   position: absolute;
   top: 0;
+  flex: 1;
 }
 
 .project-tools {
@@ -379,9 +381,10 @@ font-family: 'Roboto', sans-serif;
   list-style-type: none;
   margin-left: 20px;
   font-family: 'Inter', sans-serif;
-  margin-top: 30%;
+  margin-top: 24%;
   position: absolute;
   top: 25vh;
+  flex: 1;
 }
 
 .project-tools li {
@@ -390,6 +393,7 @@ font-family: 'Roboto', sans-serif;
   margin-right: 10px;
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
+  flex: 1;
 }
 
 .project-button {

@@ -272,7 +272,7 @@ function showModal(modalId) {
   $source.classList.add('source', 'button');
 
   //Assigning Value
-  $modalTitle.textContent = popup.desktopTitle;
+  $modalTitle.textContent = popup.mobileTitle;
   $closeBtn.innerHTML = '&times'; 
   $pModalMobile.textContent = popup.mobileText;
   $live.textContent = popup.liveBtn;
