@@ -291,13 +291,16 @@
     <input type="text" class="name" name="name" id="name" maxlength="30" placeholder="Full name" required>
     <hr class="division division-line2"></hr>
     <label for="mail" class="mail-label"></label>
-    <input type="email" class="email" name="email" id="mail" placeholder="Email address" required> 
+    <input type="email" class="email" name="email" id="mail" placeholder="Email address"> 
     <hr class="division division-line2"></hr>
     <label for="msg" class="message-label"></label>
     <textarea class="message" id="msg" maxlength="500" placeholder="Write me something..." required></textarea>
-    <div class="container-touch">
-    <button class="button touch">Get in touch</button>
+    <input type = "submit" class="touch" value="Get in touch "/>
+    <div class="container-warning hide">
+    <a><img class="x-warning" src="img/x-mobile.png"></a>
+    <p class="warnings"></p>
     </div>
+    
   </form>
 </div>
 <footer>
@@ -313,5 +316,6 @@
 </footer>
 </section>
 <script src="menu.js"></script>
+<script src= "validation.js"></script>
 </body> 
 </html>
