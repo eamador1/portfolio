@@ -292,8 +292,9 @@ font-family: 'Roboto', sans-serif;
 
 .container-1 {
   position: relative;
-  /*background-image: url(./images/desktop/card-1.png);
-  background-repeat: no-repeat;*/
+  background-image: url(img/Img-Placeholder1.png);
+  background-repeat: no-repeat;
+  background-size: 369px 400px;
   height: 400px;
   width: 369px;
   margin: 0.5%;
@@ -305,8 +306,9 @@ font-family: 'Roboto', sans-serif;
 
 .container-2 {
   position: relative;
-  /*background-image: url(./images/desktop/car-2.png);
-  background-repeat: no-repeat;*/
+  background-image: url(img/image-background2.png);
+  background-repeat: no-repeat;
+  background-size: 369px 400px;
   height: 400px;
   width: 369px;
   margin: 0.5%;
@@ -318,8 +320,9 @@ font-family: 'Roboto', sans-serif;
 
 .container-3 {
   position: relative;
-  /*background-image: url(./images/desktop/card-3.png);
-  background-repeat: no-repeat;*/
+  background-image: url(img/image-background3.png);
+  background-repeat: no-repeat;
+  background-size: 369px 400px;
   height: 400px;
   width: 369px;
   margin: 0.5%;
@@ -334,13 +337,20 @@ font-family: 'Roboto', sans-serif;
   width: 369px;
 }
 
+.hover-image {
+  height: 400px;
+  width: 369px;
+  z-index: 2;
+}
+
+
 .project-title {
   color: #fff;
   font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  margin-top: 5%;
+  margin-top: 0;
   margin-left: 5%;
   width: 295px;
   height: 81px;
@@ -369,7 +379,7 @@ font-family: 'Roboto', sans-serif;
   list-style-type: none;
   margin-left: 20px;
   font-family: 'Inter', sans-serif;
-  margin-top: 35%;
+  margin-top: 19%;
   position: absolute;
   top: 25vh;
 }
@@ -727,7 +737,7 @@ footer {
   background-color: #fff;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 1000;
   width: calc(100% - 32px);
   height: calc(100vh - 60px);
   margin-left: 16px;
@@ -835,7 +845,7 @@ footer {
   .envelope,
   .se,
   .desktopgheading2,
-  .desktopgheading3
+  .desktopgheading3,
   .hover-image {
     display: none;
   }
@@ -846,7 +856,7 @@ footer {
   .popup-mobile,
   .x-close,
   .button-list-bottom,
-  .hover-image 
+  .hover-image, 
   .project-button {
     display: none;
   }
@@ -1041,6 +1051,11 @@ footer {
     display: none;
   }
 
+  .card-image,
+  .hover-image {
+    display:none;
+  }
+
   /*.container-cards {
     display: grid;
     width: 90%;
@@ -1082,12 +1097,11 @@ footer {
     display: none;
   }
 
-  /*.container-1:hover > .hover-image,
+  .container-1:hover > .hover-image,
   .container-2:hover > .hover-image,
   .container-3:hover > .hover-image {
     display: block;
-    z-index: 2;
-  }*/
+  }
 
   .container-2:hover > .project-title,
   .container-2:hover > .project-description,
