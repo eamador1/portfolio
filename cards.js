@@ -238,7 +238,7 @@ function showModal(modalId) {
   const $divParagraph = document.createElement('div');
 
   // Giving Classes
-  $modalContainer.classList.add('modalContainer')
+  $modalContainer.classList.add('modalContainer');
 
   $modal.classList.add('modal');
   $closeBtn.classList.add('x-modalClose');
@@ -299,17 +299,7 @@ const openModal = document.querySelectorAll('.project-button');
 
 const openFirstBtn = document.querySelectorAll('.see-project1');
 
-openFirstBtn.forEach((button) => {
-  button.addEventListener('click', () => {
-    // get ID of popups objects
-    // const modalId = button.dataset.projectId;
-    // call the popup function with id
-    showModal1();
-  });
-});
-
-const popup1 = 
-{
+const popup1 = {
   id: '1',
   images: './img/img-placeholder1.png',
   image1: 'img/image-hover.png',
@@ -317,7 +307,6 @@ const popup1 =
   paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
   languages: ['html', 'bootstrap', 'Ruby'],
   seeBtn: 'See Project',
-
   imageDesktop: 'img/SnapshootPortfolioDesktop.png',
   imageMobile: 'img/SnapshootPortfolioMobile.png',
   desktopTitle: 'Keeping track of hundreds of components website 1',
@@ -335,11 +324,10 @@ const popup1 =
   sourceBtn: 'See source',
   live: 'https://eamador1.github.io/portfolio/',
   source: 'https://github.com/eamador1/portfolio/blob/main/index.html',
-}
+};
 
 function showModal1() {
-  const popup = popup1
-
+  const popup = popup1;
 
   // Create Elements
   const $modalContainer = document.createElement('div');
@@ -357,7 +345,7 @@ function showModal1() {
   const $divParagraph = document.createElement('div');
 
   // Giving Classes
-  $modalContainer.classList.add('modalContainer')
+  $modalContainer.classList.add('modalContainer');
 
   $modal.classList.add('modal');
   $closeBtn.classList.add('x-modalClose');
@@ -414,6 +402,14 @@ function showModal1() {
   });
 }
 
+openFirstBtn.forEach((button) => {
+  button.addEventListener('click', () => {
+    // get ID of popups objects
+    // const modalId = button.dataset.projectId;
+    // call the popup function with id
+    showModal1();
+  });
+});
 
 openModal.forEach((button) => {
   button.addEventListener('click', () => {

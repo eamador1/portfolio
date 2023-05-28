@@ -6,13 +6,6 @@ html,
   scroll-behavior: smooth;
 }
 
-/*
-font-family: 'Crete Round', serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
-
 .container-header {
   display: flex;
   width: 100%;
@@ -648,7 +641,7 @@ footer {
   width: 100vw;
   height: 100vh;
   backdrop-filter: blur(10px);
-  top: 0; 
+  top: 0;
   left: 0;
   position: fixed;
   display: none;
@@ -1169,7 +1162,6 @@ footer {
     background-repeat: no-repeat;
     overflow: hidden;
     background-color: #fff;
-
     width: 85vw;
     height: 75vh;
     margin-left: 7%;
