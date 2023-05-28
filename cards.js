@@ -246,10 +246,10 @@ projects.forEach((project, index) => {
 
 // let $modal = document.querySelector('.modal');
 
-function showModal(modalId) {
-  const popup = projects.find((popup) => popup.id === modalId);
+  function showModal(modalId) {
+    const popup = projects.find((popup) => popup.id === modalId);
 
-  //Create Elements
+    //Create Elements
   let $modal = document.createElement('div');
   let $closeBtn = document.createElement('button');
   let $modalTitle = document.createElement('div');
@@ -260,6 +260,7 @@ function showModal(modalId) {
   let $aLive = document.createElement('a');
   let $source = document.createElement('button');
   let $aSource = document.createElement('a');
+  let $divParagraph = document.createElement('div');
 
   //Giving Classes
   $modal.classList.add('modal');
@@ -270,6 +271,7 @@ function showModal(modalId) {
   $pModalMobile.classList.add('p-modalMobile');
   $live.classList.add('live', 'button');
   $source.classList.add('source', 'button');
+  $divParagraph.classList.add('divMP');
 
   //Assigning Value
   $modalTitle.textContent = popup.mobileTitle;
@@ -294,11 +296,12 @@ function showModal(modalId) {
   $modal.appendChild($modalTitle);
   $modal.appendChild($closeBtn);
   $modal.appendChild($ulModal);
-  $modal.appendChild($pModalMobile);
-  $live.appendChild($aLive);
-  $modal.appendChild($live);
-  $source.appendChild($aSource);
-  $modal.appendChild($source);
+  $divParagraph.appendChild($pModalMobile);
+  $modal.appendChild($divParagraph);
+  $aLive.appendChild($live);
+  $modal.appendChild($aLive);
+  $aSource.appendChild($source);
+  $modal.appendChild($aSource);
 
   document.body.appendChild($modal);
 

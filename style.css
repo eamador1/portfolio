@@ -792,6 +792,9 @@ footer {
     margin-right: 3px;
   }
 
+  .divMP{
+    width: 100%;
+  }
   .p-modalMobile {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -1367,7 +1370,7 @@ footer {
   }
   .modal {
     background-size: 50%;
-    background-position-y: 20vh;
+    background-position-y: 18vh;
     background-repeat: no-repeat;
     overflow: hidden;
     background-color: #fff;
@@ -1412,7 +1415,7 @@ footer {
     width: 45%;
     margin-right: 1.8rem;
     margin-left: calc(50% + 41px);
-    margin-top: 0.5vh;
+    margin-top: 2.5vh;
     text-align:left;
     flex: 1;
   }
@@ -1423,7 +1426,7 @@ footer {
   .live {
     width: 10vw;
     margin-left: 45.5vw;
-    margin-top: 22.3vh;
+    margin-top: 25.3vh;
   }
   
   .source {
