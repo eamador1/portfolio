@@ -1,10 +1,9 @@
-
 const projects = [
   {
     id: '1',
     images: './img/img-placeholder1.png',
     image1: 'img/image-hover.png',
-    title:'Professional Art Printing',
+    title: 'Professional Art Printing',
     paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     languages: ['html', 'bootstrap', 'Ruby'],
     seeBtn: 'See Project',
@@ -12,29 +11,27 @@ const projects = [
     imageDesktop: 'img/SnapshootPortfolioDesktop.png',
     imageMobile: 'img/SnapshootPortfolioMobile.png',
     desktopTitle: 'Keeping track of hundreds of components website 1',
-    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
-    'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
+    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
     mobileTitle: 'Multi-Post Stories',
-    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
-    'electronic typesetting, remaining essent'],
+    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
+      'electronic typesetting, remaining essent'],
     tools: ['html', 'bootstrap', 'Ruby on Rails'],
-    closeImage: 'img/x-mobile.png', 
+    closeImage: 'img/x-mobile.png',
     liveBtn: 'See live',
     sourceBtn: 'See source',
-    liveBtn: "See Live",
-    sourceBtn: "See Source",
     live: 'https://eamador1.github.io/portfolio/',
-    source: 'https://github.com/eamador1/portfolio/blob/main/index.html'
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html',
   },
 
   {
     id: '2',
     images: './img/image-background2.png',
     image1: 'img/image-hover.png',
-    title:'Data Dashboard Healthcare',
+    title: 'Data Dashboard Healthcare',
     paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     languages: ['html', 'bootstrap', 'Ruby'],
     seeBtn: 'See Project',
@@ -42,80 +39,74 @@ const projects = [
     imageDesktop: 'img/SnapshootPortfolioDesktop.png',
     imageMobile: 'img/SnapshootPortfolioMobile.png',
     desktopTitle: 'Keeping track of hundreds of components website 1',
-    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
-    'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
+    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
     mobileTitle: 'Multi-Post Stories',
-    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
-    'electronic typesetting, remaining essent'],
+    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
+      'electronic typesetting, remaining essent'],
     tools: ['html', 'bootstrap', 'Ruby on Rails'],
-    closeImage: 'img/x-mobile.png', 
+    closeImage: 'img/x-mobile.png',
     liveBtn: 'See live',
     sourceBtn: 'See source',
-    liveBtn: "See Live",
-    sourceBtn: "See Source",
     live: 'https://eamador1.github.io/portfolio/',
-    source: 'https://github.com/eamador1/portfolio/blob/main/index.html'
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html',
   },
 
   {
     id: '3',
     images: './img/image-background3.png',
     image1: 'img/image-hover.png',
-    title:'Website Portfolio',
+    title: 'Website Portfolio',
     paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     languages: ['html', 'boostrap', 'Ruby'],
-    seeBtn: 'See Project', 
+    seeBtn: 'See Project',
 
     imageDesktop: 'img/SnapshootPortfolioDesktop.png',
     imageMobile: 'img/SnapshootPortfolioMobile.png',
     desktopTitle: 'Keeping track of hundreds of components website 1',
-    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
-    'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
+    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
     mobileTitle: 'Multi-Post Stories',
-    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
-    'electronic typesetting, remaining essent'],
+    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
+      'electronic typesetting, remaining essent'],
     tools: ['html', 'bootstrap', 'Ruby on Rails'],
-    closeImage: 'img/x-mobile.png', 
+    closeImage: 'img/x-mobile.png',
     liveBtn: 'See live',
     sourceBtn: 'See source',
-    liveBtn: "See Live",
-    sourceBtn: "See Source",
     live: 'https://eamador1.github.io/portfolio/',
-    source: 'https://github.com/eamador1/portfolio/blob/main/index.html'
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html',
   },
 
   {
     id: '4',
     images: './img/img-placeholder1.png',
     image1: 'img/image-hover.png',
-    title:'Professional Art Printing',
+    title: 'Professional Art Printing',
     paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     languages: ['html', 'bootstrap', 'Ruby'],
-    seeBtn: 'See Project', 
+    seeBtn: 'See Project',
 
     imageDesktop: 'img/SnapshootPortfolioDesktop.png',
     imageMobile: 'img/SnapshootPortfolioMobile.png',
     desktopTitle: 'Keeping track of hundreds of components website 1',
-    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
-    'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
+    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
     mobileTitle: 'Multi-Post Stories',
-    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
-    'electronic typesetting, remaining essent'],
+    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
+      'electronic typesetting, remaining essent'],
     tools: ['html', 'bootstrap', 'Ruby on Rails'],
-    closeImage: 'img/x-mobile.png', 
+    closeImage: 'img/x-mobile.png',
     liveBtn: 'See live',
     sourceBtn: 'See source',
-    liveBtn: "See Live",
-    sourceBtn: "See Source",
     live: 'https://eamador1.github.io/portfolio/',
     source: 'https://github.com/eamador1/portfolio/blob/main/index.html',
   },
@@ -124,145 +115,127 @@ const projects = [
     id: '5',
     images: './img/image-background2.png',
     image1: 'img/image-hover.png',
-    title:'Data Dashboard Healthcare',
+    title: 'Data Dashboard Healthcare',
     paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     languages: ['html', 'bootstrap', 'Ruby'],
-    seeBtn: 'See Project', 
+    seeBtn: 'See Project',
 
     imageDesktop: 'img/SnapshootPortfolioDesktop.png',
     imageMobile: 'img/SnapshootPortfolioMobile.png',
     desktopTitle: 'Keeping track of hundreds of components website 1',
-    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
-    'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
+    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
     mobileTitle: 'Multi-Post Stories',
-    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
-    'electronic typesetting, remaining essent'],
+    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
+      'electronic typesetting, remaining essent'],
     tools: ['html', 'bootstrap', 'Ruby on Rails'],
-    closeImage: 'img/x-mobile.png', 
+    closeImage: 'img/x-mobile.png',
     liveBtn: 'See live',
     sourceBtn: 'See source',
-    liveBtn: "See Live",
-    sourceBtn: "See Source",
     live: 'https://eamador1.github.io/portfolio/',
-    source: 'https://github.com/eamador1/portfolio/blob/main/index.html'
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html',
   },
 
   {
     id: '6',
     images: './img/image-background3.png',
     image1: 'img/image-hover.png',
-    title:'Website Portfolio',
+    title: 'Website Portfolio',
     paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
     languages: ['html', 'bootstrap', 'Ruby'],
-    seeBtn: 'See Project', 
-
+    seeBtn: 'See Project',
     imageDesktop: 'img/SnapshootPortfolioDesktop.png',
     imageMobile: 'img/SnapshootPortfolioMobile.png',
     desktopTitle: 'Keeping track of hundreds of components website 1',
-    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
-    'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
+    desktopText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s.<br>',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it in 1960s with the releax  map lapora verita.'],
     mobileTitle: 'Multi-Post Stories',
-    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,', 
-    'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
-    'electronic typesetting, remaining essent'],
+    mobileText: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s,',
+      'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into',
+      'electronic typesetting, remaining essent'],
     tools: ['html', 'bootstrap', 'Ruby on Rails'],
-    closeImage: 'img/x-mobile.png', 
+    closeImage: 'img/x-mobile.png',
     liveBtn: 'See live',
     sourceBtn: 'See source',
-    liveBtn: "See Live",
-    sourceBtn: "See Source",
     live: 'https://eamador1.github.io/portfolio/',
-    source: 'https://github.com/eamador1/portfolio/blob/main/index.html'
-  }
-]
-//CODE TO DISPLAY CARDS
- 
-let $cardWorks = document.querySelector('.card-works');
+    source: 'https://github.com/eamador1/portfolio/blob/main/index.html',
+  },
+];
+// CODE TO DISPLAY CARDS
+
+const $cardWorks = document.querySelector('.card-works');
 
 projects.forEach((project, index) => {
-  
-    // Create the elements
-    let $images = document.createElement('img');
-    let $hoverImage = document.createElement('img');
-    let $cardContainer = document.createElement('div');
-    let $projectTitle = document.createElement('h2');
-    let $projectDescrption = document.createElement('p');
-    let $ul = document.createElement('ul');
-    let $button = document.createElement('button');
-    const $cardClassName = `container-${(index % 3) +1}`;
+  // Create the elements
+  const $images = document.createElement('img');
+  const $hoverImage = document.createElement('img');
+  const $cardContainer = document.createElement('div');
+  const $projectTitle = document.createElement('h2');
+  const $projectDescrption = document.createElement('p');
+  const $ul = document.createElement('ul');
+  const $button = document.createElement('button');
+  const $cardClassName = `container-${(index % 3) + 1}`;
 
-    // Giving clasess
-    $images.classList.add('card-image');
-    $hoverImage.classList.add('hover-image');
-    $cardContainer.classList.add($cardClassName);
-    $projectTitle.classList.add('project-title');
-    $projectDescrption.classList.add('project-description');
-    $ul.classList.add('project-tools');
-    $button.classList.add('project-button');
+  // Giving clasess
+  $images.classList.add('card-image');
+  $hoverImage.classList.add('hover-image');
+  $cardContainer.classList.add($cardClassName);
+  $projectTitle.classList.add('project-title');
+  $projectDescrption.classList.add('project-description');
+  $ul.classList.add('project-tools');
+  $button.classList.add('project-button');
 
-    // Assign values 
-    $images.setAttribute("src", project.images);
-    $hoverImage.setAttribute("src", project.image1);
-    $projectTitle.textContent = project.title;
-    $projectDescrption.textContent = project.paragraph;
-    $button.textContent = project.seeBtn;
-    $button.dataset.projectId = project.id;
+  // Assign values
+  $images.setAttribute('src', project.images);
+  $hoverImage.setAttribute('src', project.image1);
+  $projectTitle.textContent = project.title;
+  $projectDescrption.textContent = project.paragraph;
+  $button.textContent = project.seeBtn;
+  $button.dataset.projectId = project.id;
 
-    project.languages.forEach((language) => {
-        let $li = document.createElement('li');
-        $li.classList.add('project-tools-list');
-        $li.textContent = language;
-        $ul.appendChild($li);
-    })
-  
-    /* Append elements to cardContainer */
+  project.languages.forEach((language) => {
+    const $li = document.createElement('li');
+    $li.classList.add('project-tools-list');
+    $li.textContent = language;
+    $ul.appendChild($li);
+  });
 
-    $cardContainer.appendChild($projectTitle);
-    $cardContainer.appendChild($projectDescrption);
-    $cardContainer.appendChild($ul);
-    $cardContainer.appendChild($button);
-    $cardContainer.appendChild($images);
-    $cardContainer.appendChild($hoverImage);
-    $cardContainer.appendChild($button);
+  /* Append elements to cardContainer */
 
-    $cardWorks.appendChild($cardContainer);
-
-})
+  $cardContainer.appendChild($projectTitle);
+  $cardContainer.appendChild($projectDescrption);
+  $cardContainer.appendChild($ul);
+  $cardContainer.appendChild($button);
+  $cardContainer.appendChild($images);
+  $cardContainer.appendChild($hoverImage);
+  $cardContainer.appendChild($button);
+  $cardWorks.appendChild($cardContainer);
+});
 
 // DISPLAY MODAL WINDOW //
 
-// let $modal = document.querySelector('.modal');
+function showModal(modalId) {
+  const popup = projects.find((popup) => popup.id === modalId);
 
-// projects.forEach((project, index) => {
-
-//   // Create the elements for in the modal section //
-
-// })
-
-// let $modal = document.querySelector('.modal');
-
-  function showModal(modalId) {
-    const popup = projects.find((popup) => popup.id === modalId);
-
-    //Create Elements
-  let $modal = document.createElement('div');
-  let $closeBtn = document.createElement('button');
-  let $modalTitle = document.createElement('div');
+  // Create Elements
+  const $modal = document.createElement('div');
+  const $closeBtn = document.createElement('button');
+  const $modalTitle = document.createElement('div');
   // let $closeModal = document.createElement('img');
-  let $ulModal = document.createElement('ul');
-  let $pModalMobile = document.createElement('p');
-  let $live = document.createElement('button');
-  let $aLive = document.createElement('a');
-  let $source = document.createElement('button');
-  let $aSource = document.createElement('a');
-  let $divParagraph = document.createElement('div');
+  const $ulModal = document.createElement('ul');
+  const $pModalMobile = document.createElement('p');
+  const $live = document.createElement('button');
+  const $aLive = document.createElement('a');
+  const $source = document.createElement('button');
+  const $aSource = document.createElement('a');
+  const $divParagraph = document.createElement('div');
 
-  //Giving Classes
+  // Giving Classes
   $modal.classList.add('modal');
   $closeBtn.classList.add('x-modalClose');
   $modalTitle.classList.add('modal-title');
@@ -273,9 +246,9 @@ projects.forEach((project, index) => {
   $source.classList.add('source', 'button');
   $divParagraph.classList.add('divMP');
 
-  //Assigning Value
+  // Assigning Value
   $modalTitle.textContent = popup.mobileTitle;
-  $closeBtn.innerHTML = '&times'; 
+  $closeBtn.innerHTML = '&times';
   $pModalMobile.textContent = popup.mobileText;
   $live.textContent = popup.liveBtn;
   $source.textContent = popup.sourceBtn;
@@ -287,11 +260,11 @@ projects.forEach((project, index) => {
   $aSource.rel = 'noopener';
 
   popup.tools.forEach((tool) => {
-      let $liModal = document.createElement('li');
-      $liModal.classList.add('modal-list');
-      $liModal.textContent = tool;
-      $ulModal.appendChild($liModal);
-  })
+    const $liModal = document.createElement('li');
+    $liModal.classList.add('modal-list');
+    $liModal.textContent = tool;
+    $ulModal.appendChild($liModal);
+  });
 
   $modal.appendChild($modalTitle);
   $modal.appendChild($closeBtn);
@@ -311,12 +284,11 @@ projects.forEach((project, index) => {
 
   // to close modal
   const closeModal = document.querySelector('.x-modalClose');
-  closeModal.addEventListener('click',()=>{
+  closeModal.addEventListener('click', () => {
     modalContainer.style.display = 'none';
   });
-};
+}
 
-  
 const openModal = document.querySelectorAll('.project-button');
 
 openModal.forEach((button) => {
