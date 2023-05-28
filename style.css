@@ -12,6 +12,7 @@ font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+
 .container-header {
   display: flex;
   width: 100%;
@@ -642,9 +643,14 @@ footer {
 /* -----------ENDS SECTION CONTACTME MOBILE------------- */
 
 /* -----------MODAL SECTION CONTACTME MOBILE------------- */
-.whole-modal {
-  width: 100%;
-  background-color: red;
+
+.modalContainer {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  top: 0; 
+  left: 0;
+  position: fixed;
   display: none;
 }
 
@@ -658,12 +664,11 @@ footer {
   background-color: #fff;
   position: fixed;
   top: 0;
-  z-index: 1000;
+  left: 0;
   width: calc(100% - 32px);
   height: calc(100vh - 60px);
   margin-left: 16px;
   margin-top: 30px;
-  display: none;
 }
 
 .modalImage-mobile {
@@ -1164,12 +1169,11 @@ footer {
     background-repeat: no-repeat;
     overflow: hidden;
     background-color: #fff;
-    position: fixed;
+
     width: 85vw;
     height: 75vh;
     margin-left: 7%;
     margin-top: 13vh;
-    display: none;
   }
 
   .modal-title {
